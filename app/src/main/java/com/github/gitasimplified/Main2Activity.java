@@ -277,8 +277,8 @@ public class Main2Activity extends AppCompatActivity
         else if (id2 == R.id.five) {
 
         }
-        else{Intent myIntent = new Intent(this, MainActivity.class);
-            this.startActivity(myIntent);}
+        else{Toast.makeText(Main2Activity.this, "You : ", Toast.LENGTH_SHORT).show(); }
+
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

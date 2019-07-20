@@ -5,7 +5,6 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.constraint.ConstraintLayout;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.text.Editable;
@@ -20,30 +19,26 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
-import android.view.Window;
-import android.view.WindowManager;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.github.gitasimplified.Chp.Chp10;
-import com.github.gitasimplified.Chp.Chp11;
-import com.github.gitasimplified.Chp.Chp12;
-import com.github.gitasimplified.Chp.Chp13;
-import com.github.gitasimplified.Chp.Chp14;
-import com.github.gitasimplified.Chp.Chp15;
-import com.github.gitasimplified.Chp.Chp16;
-import com.github.gitasimplified.Chp.Chp17;
-import com.github.gitasimplified.Chp.Chp18;
-import com.github.gitasimplified.Chp.Chp2;
-import com.github.gitasimplified.Chp.Chp3;
-import com.github.gitasimplified.Chp.Chp4;
-import com.github.gitasimplified.Chp.Chp5;
-import com.github.gitasimplified.Chp.Chp6;
-import com.github.gitasimplified.Chp.Chp7;
-import com.github.gitasimplified.Chp.Chp8;
-import com.github.gitasimplified.Chp.Chp9;
+import com.github.gitasimplified.chp.Chp10;
+import com.github.gitasimplified.chp.Chp11;
+import com.github.gitasimplified.chp.Chp12;
+import com.github.gitasimplified.chp.Chp13;
+import com.github.gitasimplified.chp.Chp14;
+import com.github.gitasimplified.chp.Chp15;
+import com.github.gitasimplified.chp.Chp16;
+import com.github.gitasimplified.chp.Chp17;
+import com.github.gitasimplified.chp.Chp18;
+import com.github.gitasimplified.chp.Chp2;
+import com.github.gitasimplified.chp.Chp3;
+import com.github.gitasimplified.chp.Chp4;
+import com.github.gitasimplified.chp.Chp5;
+import com.github.gitasimplified.chp.Chp6;
+import com.github.gitasimplified.chp.Chp7;
+import com.github.gitasimplified.chp.Chp8;
+import com.github.gitasimplified.chp.Chp9;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -148,7 +143,7 @@ public class MainActivity extends AppCompatActivity
         // fill list news with data
         // just for testing purpose i will fill the news list with random data
         // you may get your data from an api / firebase or sqlite database ...
-        mData.add(new NewsItem("I love Programming And Design","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,","6 july 1994",R.drawable.circul6));
+        mData.add(new NewsItem("I Programming And Design","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,","6 july 1994",R.drawable.circul6));
         mData.add(new NewsItem("My first trip to Thailand story ","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","6 july 1994",R.drawable.uservoyager));
         mData.add(new NewsItem("After Facebook Messenger","Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,","6 july 1994",R.drawable.useillust));
         mData.add(new NewsItem("Isometric Design Grid Concept","lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit","6 july 1994",R.drawable.circul6));
@@ -380,8 +375,7 @@ public class MainActivity extends AppCompatActivity
             this.startActivity(myIntent);
 
         }
-        else{Intent myIntent = new Intent(this, MainActivity.class);
-            this.startActivity(myIntent);}
+        //else{Toast.makeText(MainActivity.this, "You Clicked: ", Toast.LENGTH_SHORT).show(); }
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
