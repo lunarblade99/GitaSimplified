@@ -250,7 +250,7 @@ public class Main2Activity extends AppCompatActivity
 
         if (id == R.id.action_settings2){
 
-            Intent myIntent = new Intent(this, Main3Activity.class);
+            Intent myIntent = new Intent(this, Main2Activity.class);
             this.startActivity(myIntent);            }
 
         if (id == R.id.action_settings1){

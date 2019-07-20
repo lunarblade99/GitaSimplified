@@ -1,54 +1,35 @@
-package com.github.gitasimplified;
+package com.github.gitasimplified.Chp;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.os.Bundle;
 import android.support.constraint.ConstraintLayout;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
+import android.support.design.widget.NavigationView;
+import android.support.v4.view.GravityCompat;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.view.View;
-import android.support.v4.view.GravityCompat;
-import android.support.v7.app.ActionBarDrawerToggle;
-import android.view.MenuItem;
-import android.support.design.widget.NavigationView;
-import android.support.v4.widget.DrawerLayout;
-
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.Menu;
-import android.view.Window;
-import android.view.WindowManager;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
+import android.view.MenuItem;
+import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.github.gitasimplified.Chp.Chp10;
-import com.github.gitasimplified.Chp.Chp11;
-import com.github.gitasimplified.Chp.Chp12;
-import com.github.gitasimplified.Chp.Chp13;
-import com.github.gitasimplified.Chp.Chp14;
-import com.github.gitasimplified.Chp.Chp15;
-import com.github.gitasimplified.Chp.Chp16;
-import com.github.gitasimplified.Chp.Chp17;
-import com.github.gitasimplified.Chp.Chp18;
-import com.github.gitasimplified.Chp.Chp2;
-import com.github.gitasimplified.Chp.Chp3;
-import com.github.gitasimplified.Chp.Chp4;
-import com.github.gitasimplified.Chp.Chp5;
-import com.github.gitasimplified.Chp.Chp6;
-import com.github.gitasimplified.Chp.Chp7;
-import com.github.gitasimplified.Chp.Chp8;
-import com.github.gitasimplified.Chp.Chp9;
+import com.github.gitasimplified.Main2Activity;
+import com.github.gitasimplified.NewsAdapter;
+import com.github.gitasimplified.NewsItem;
+import com.github.gitasimplified.R;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity
+public class Chp6 extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     RecyclerView NewsRecyclerview;
@@ -73,14 +54,9 @@ public class MainActivity extends AppCompatActivity
             NewsItem thisItem = mData.get(position);
 
             if(position == 0) {
-                Toast.makeText(MainActivity.this, "You Clicked: " + thisItem.getTitle(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(Chp6.this, "You Clicked: " + thisItem.getTitle(), Toast.LENGTH_SHORT).show();
             }
-            if(position == 1) {
-                Toast.makeText(MainActivity.this, "You Clicked: " + thisItem.getTitle(), Toast.LENGTH_SHORT).show();
-            }
-            if(position == 2) {
-                Toast.makeText(MainActivity.this, "You Clicked: " + thisItem.getTitle(), Toast.LENGTH_SHORT).show();
-            }
+
 
         }
     };
@@ -89,9 +65,9 @@ public class MainActivity extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-       // requestWindowFeature(Window.FEATURE_NO_TITLE);
-       // getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-         //       WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        // requestWindowFeature(Window.FEATURE_NO_TITLE);
+        // getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+        //       WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -272,19 +248,19 @@ public class MainActivity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings){
-            Intent myIntent = new Intent(this, MainActivity.class);
+            Intent myIntent = new Intent(this, com.github.gitasimplified.MainActivity.class);
             this.startActivity(myIntent);
         }
 
         if (id == R.id.action_settings2){
 
-                Intent myIntent = new Intent(this, Main2Activity.class);
-                this.startActivity(myIntent);
+            Intent myIntent = new Intent(this, Main2Activity.class);
+            this.startActivity(myIntent);
 
         }
 
         if (id == R.id.action_settings1){
-           {
+            {
                 return true;
             }}
 
@@ -298,7 +274,7 @@ public class MainActivity extends AppCompatActivity
         int id2 = item.getItemId();
 
         if (id2 == R.id.one) {
-            Intent myIntent = new Intent(this, MainActivity.class);
+            Intent myIntent = new Intent(this, com.github.gitasimplified.MainActivity.class);
             this.startActivity(myIntent);
 
         }
@@ -380,7 +356,7 @@ public class MainActivity extends AppCompatActivity
             this.startActivity(myIntent);
 
         }
-        else{Intent myIntent = new Intent(this, MainActivity.class);
+        else{Intent myIntent = new Intent(this, com.github.gitasimplified.MainActivity.class);
             this.startActivity(myIntent);}
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);

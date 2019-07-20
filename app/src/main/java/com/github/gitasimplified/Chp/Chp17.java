@@ -1,4 +1,4 @@
-package com.github.gitasimplified;
+package com.github.gitasimplified.Chp;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -18,15 +18,18 @@ import android.text.TextWatcher;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.github.gitasimplified.Main2Activity;
+import com.github.gitasimplified.NewsAdapter;
+import com.github.gitasimplified.NewsItem;
+import com.github.gitasimplified.R;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main3Activity extends AppCompatActivity
+public class Chp17 extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     RecyclerView NewsRecyclerview;
@@ -51,14 +54,9 @@ public class Main3Activity extends AppCompatActivity
             NewsItem thisItem = mData.get(position);
 
             if(position == 0) {
-                Toast.makeText(Main3Activity.this, "You : " + thisItem.getTitle(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(Chp17.this, "You Clicked: " + thisItem.getTitle(), Toast.LENGTH_SHORT).show();
             }
-            if(position == 1) {
-                Toast.makeText(Main3Activity.this, "You : " + thisItem.getTitle(), Toast.LENGTH_SHORT).show();
-            }
-            if(position == 2) {
-                Toast.makeText(Main3Activity.this, "You : " + thisItem.getTitle(), Toast.LENGTH_SHORT).show();
-            }
+
 
         }
     };
@@ -67,14 +65,12 @@ public class Main3Activity extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-                WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        // requestWindowFeature(Window.FEATURE_NO_TITLE);
+        // getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+        //       WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main);
-
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
@@ -83,6 +79,7 @@ public class Main3Activity extends AppCompatActivity
         drawer.addDrawerListener(toggle);
         toggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
+        navigationView.getMenu().getItem(0).setChecked(true);
 
         /////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -118,7 +115,7 @@ public class Main3Activity extends AppCompatActivity
         {
             // light theme is on
             searchInput.setBackgroundResource(R.drawable.search_input_style);
-            rootLayout.setBackgroundColor(getResources().getColor(R.color.white));
+            rootLayout.setBackgroundColor(getResources().getColor(R.color.colorPrimaryt));
 
         }
 
@@ -127,22 +124,21 @@ public class Main3Activity extends AppCompatActivity
         // fill list news with data
         // just for testing purpose i will fill the news list with random data
         // you may get your data from an api / firebase or sqlite database ...
-        mData.add(new NewsItem("OnePlus 6T Camera Review:","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","6 july 1994",R.drawable.user));
         mData.add(new NewsItem("I love Programming And Design","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,","6 july 1994",R.drawable.circul6));
         mData.add(new NewsItem("My first trip to Thailand story ","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","6 july 1994",R.drawable.uservoyager));
-        mData.add(new NewsItem("After Facebook Messenger, Viber now gets...","Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,","6 july 1994",R.drawable.useillust));
+        mData.add(new NewsItem("After Facebook Messenger","Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,","6 july 1994",R.drawable.useillust));
         mData.add(new NewsItem("Isometric Design Grid Concept","lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit","6 july 1994",R.drawable.circul6));
         mData.add(new NewsItem("Android R Design Concept 4K","lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit ","6 july 1994",R.drawable.user));
         mData.add(new NewsItem("OnePlus 6T Camera Review:","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","6 july 1994",R.drawable.user));
         mData.add(new NewsItem("I love Programming And Design","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,","6 july 1994",R.drawable.circul6));
         mData.add(new NewsItem("My first trip to Thailand story ","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","6 july 1994",R.drawable.uservoyager));
-        mData.add(new NewsItem("After Facebook Messenger, Viber now gets...","Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,","6 july 1994",R.drawable.useillust));
+        mData.add(new NewsItem("After Facebook Messengerets...","Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,","6 july 1994",R.drawable.useillust));
         mData.add(new NewsItem("Isometric Design Grid Concept","lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit","6 july 1994",R.drawable.circul6));
         mData.add(new NewsItem("Android R Design Concept 4K","lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit ","6 july 1994",R.drawable.user));
         mData.add(new NewsItem("OnePlus 6T Camera Review:","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","6 july 1994",R.drawable.user));
         mData.add(new NewsItem("I love Programming And Design","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,","6 july 1994",R.drawable.circul6));
         mData.add(new NewsItem("My first trip to Thailand story ","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","6 july 1994",R.drawable.uservoyager));
-        mData.add(new NewsItem("After Facebook Messenger, Viber now gets...","Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,","6 july 1994",R.drawable.useillust));
+        mData.add(new NewsItem("After Facebook Messengs...","Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,","6 july 1994",R.drawable.useillust));
         mData.add(new NewsItem("Isometric Design Grid Concept","lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit","6 july 1994",R.drawable.circul6));
         mData.add(new NewsItem("Android R Design Concept 4K","lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit ","6 july 1994",R.drawable.user));
 
@@ -165,7 +161,7 @@ public class Main3Activity extends AppCompatActivity
 
                 }
                 else {
-                    rootLayout.setBackgroundColor(getResources().getColor(R.color.white));
+                    rootLayout.setBackgroundColor(getResources().getColor(R.color.colorPrimaryt));
                     searchInput.setBackgroundResource(R.drawable.search_input_style);
                 }
 
@@ -177,7 +173,6 @@ public class Main3Activity extends AppCompatActivity
                 }
                 NewsRecyclerview.setAdapter(newsAdapter);
                 saveThemeStatePref(isDark);
-
 
 
 
@@ -253,14 +248,16 @@ public class Main3Activity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings){
-            Intent myIntent = new Intent(this, MainActivity.class);
+            Intent myIntent = new Intent(this, com.github.gitasimplified.MainActivity.class);
             this.startActivity(myIntent);
         }
 
         if (id == R.id.action_settings2){
 
-            Intent myIntent = new Intent(this, Main3Activity.class);
-            this.startActivity(myIntent);            }
+            Intent myIntent = new Intent(this, Main2Activity.class);
+            this.startActivity(myIntent);
+
+        }
 
         if (id == R.id.action_settings1){
             {
@@ -276,25 +273,95 @@ public class Main3Activity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id2 = item.getItemId();
 
-        if (id2 == R.id.two) {
-            Intent myIntent = new Intent(this, Main2Activity.class);
+        if (id2 == R.id.one) {
+            Intent myIntent = new Intent(this, com.github.gitasimplified.MainActivity.class);
             this.startActivity(myIntent);
-        }
-        else if (id2 == R.id.eighteen) {
 
         }
-        else if (id2 == R.id.five) {
+        if (id2 == R.id.two) {
+            Intent myIntent = new Intent(this, Chp2.class);
+            this.startActivity(myIntent);
 
         }
-        else{Intent myIntent = new Intent(this, Main3Activity.class);
+        if (id2 == R.id.three) {
+            Intent myIntent = new Intent(this, Chp3.class);
+            this.startActivity(myIntent);
+
+        }
+        if (id2 == R.id.four) {
+            Intent myIntent = new Intent(this, Chp4.class);
+            this.startActivity(myIntent);
+
+        }if (id2 == R.id.five) {
+            Intent myIntent = new Intent(this, Chp5.class);
+            this.startActivity(myIntent);
+
+        }
+        if (id2 == R.id.six) {
+            Intent myIntent = new Intent(this, Chp6.class);
+            this.startActivity(myIntent);
+
+        }if (id2 == R.id.seven) {
+            Intent myIntent = new Intent(this, Chp7.class);
+            this.startActivity(myIntent);
+
+        }
+        if (id2 == R.id.eight) {
+            Intent myIntent = new Intent(this, Chp8.class);
+            this.startActivity(myIntent);
+
+        }if (id2 == R.id.nine) {
+            Intent myIntent = new Intent(this, Chp9.class);
+            this.startActivity(myIntent);
+
+        }
+        if (id2 == R.id.ten) {
+            Intent myIntent = new Intent(this, Chp10.class);
+            this.startActivity(myIntent);
+
+        }if (id2 == R.id.eleven) {
+            Intent myIntent = new Intent(this, Chp11.class);
+            this.startActivity(myIntent);
+
+        }
+        if (id2 == R.id.twelve) {
+            Intent myIntent = new Intent(this, Chp12.class);
+            this.startActivity(myIntent);
+
+        }if (id2 == R.id.thirteen) {
+            Intent myIntent = new Intent(this, Chp13.class);
+            this.startActivity(myIntent);
+
+        }
+        if (id2 == R.id.fourteen) {
+            Intent myIntent = new Intent(this, Chp14.class);
+            this.startActivity(myIntent);
+
+        }if (id2 == R.id.fifteen) {
+            Intent myIntent = new Intent(this, Chp15.class);
+            this.startActivity(myIntent);
+
+        }
+        if (id2 == R.id.sixteen) {
+            Intent myIntent = new Intent(this, Chp16.class);
+            this.startActivity(myIntent);
+
+        }if (id2 == R.id.seventeen) {
+            Intent myIntent = new Intent(this, Chp17.class);
+            this.startActivity(myIntent);
+
+        }
+        if (id2 == R.id.eighteen) {
+            Intent myIntent = new Intent(this, Chp18.class);
+            this.startActivity(myIntent);
+
+        }
+        else{Intent myIntent = new Intent(this, com.github.gitasimplified.MainActivity.class);
             this.startActivity(myIntent);}
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+
     }
-
-
-
 }
-

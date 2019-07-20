@@ -9,8 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Main4Activity"></activity>
-        <activity android:name=".Main3Activity" />
+        <activity android:name=".Chp.Chp8"></activity>
+        <activity android:name=".Chp.Chp18" />
+        <activity android:name=".Chp.Chp17" />
+        <activity android:name=".Chp.Chp16" />
+        <activity android:name=".Chp.Chp15" />
+        <activity android:name=".Chp.Chp14" />
+        <activity android:name=".Chp.Chp13" />
+        <activity android:name=".Chp.Chp12" />
+        <activity android:name=".Chp.Chp11" />
+        <activity android:name=".Chp.Chp10" />
+        <activity android:name=".Chp.Chp9" />
+        <activity android:name=".Chp.Chp7" />
+        <activity android:name=".Chp.Chp6" />
+        <activity android:name=".Chp.Chp5" />
+        <activity android:name=".Chp.Chp4" />
+        <activity android:name=".Chp.Chp3" />
+        <activity android:name=".Chp.Chp2" />
         <activity android:name=".Main2Activity" />
         <activity
             android:name=".Splash"
