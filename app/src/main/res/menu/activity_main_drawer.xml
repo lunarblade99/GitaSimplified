@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/one"
+            android:icon="@drawable/ic_one"
+            android:title="@string/_1_arjuna_s_sorrow" />
+        <item
+            android:id="@+id/two"
+            android:icon="@drawable/ic_two"
+            android:title="2.The Path of Knowledge" />
+        <item
+            android:id="@+id/three"
+            android:icon="@drawable/ic_three"
+            android:title="3.Karma-Yoga" />
+        <item
+            android:id="@+id/four"
+            android:icon="@drawable/ic_four"
+            android:title="4.Renunciation of Action with knowledge" />  <item
+        android:id="@+id/five"
+        android:icon="@drawable/ic_five"
+        android:title="5.Renunciation of Action" />  <item
+        android:id="@+id/six"
+        android:icon="@drawable/ic_six"
+        android:title="6.Yoga of Self-Control" />
+        <item
+        android:id="@+id/seven"
+        android:icon="@drawable/ic_seven"
+        android:title="7.Knowledge and Wisdom" />
+       <item
+        android:id="@+id/eight"
+        android:icon="@drawable/ic_eight"
+        android:title="8.Yoga of Imperishable Brahman" /> <item
+        android:id="@+id/nine"
+        android:icon="@drawable/ic_nine"
+        android:title="9.The Secret of Secrets" /> <item
+        android:id="@+id/ten"
+        android:icon="@drawable/ic_ten"
+        android:title="10.The Manifestations of God" /> <item
+        android:id="@+id/eleven"
+        android:icon="@drawable/ic_eleven"
+        android:title="11.The Universal Vision" /> <item
+        android:id="@+id/twelve"
+        android:icon="@drawable/ic_twelve"
+        android:title="12.The Yoga of Devotion" /> <item
+        android:id="@+id/thirteen"
+        android:icon="@drawable/ic_thirteen"
+        android:title="13.Purusha and Prakriti" /> <item
+        android:id="@+id/fourteen"
+        android:icon="@drawable/ic_fourteen"
+        android:title="14.The Triple Gunas" />
+        <item
+            android:id="@+id/fifteen"
+            android:icon="@drawable/ic_fifteen"
+            android:title="15.The Yoga of the Supreme Being" /> <item
+        android:id="@+id/sixteen"
+        android:icon="@drawable/ic_sixteen"
+        android:title="16.The opposite Qualities" /> <item
+        android:id="@+id/seventeen"
+        android:icon="@drawable/ic_seventeen"
+        android:title="17.The Division of Qualities" /> <item
+        android:id="@+id/eighteen"
+        android:icon="@drawable/ic_eighteen"
+        android:title="18.Liberation by Renunciation" />
+    </group>
+</menu>
