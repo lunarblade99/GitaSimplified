@@ -242,18 +242,7 @@ public class Main2Activity extends AppCompatActivity
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings){
-            Intent myIntent = new Intent(this, MainActivity.class);
-            this.startActivity(myIntent);
-        }
-
-        if (id == R.id.action_settings2){
-
-            Intent myIntent = new Intent(this, Main2Activity.class);
-            this.startActivity(myIntent);            }
-
-        if (id == R.id.action_settings1){
+        if (id == R.id.meaning){
             {
                 return true;
             }}

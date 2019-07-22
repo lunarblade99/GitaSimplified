@@ -266,22 +266,22 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings){
+        if (id == R.id.meaning){
             Intent myIntent = new Intent(this, MainActivity.class);
             this.startActivity(myIntent);
         }
 
-        if (id == R.id.action_settings2){
+        if (id == R.id.verses){
 
                 Intent myIntent = new Intent(this, Main2Activity.class);
                 this.startActivity(myIntent);
 
         }
 
-        if (id == R.id.action_settings1){
+        if (id == R.id.Aboutus){
            {
-                return true;
-            }}
+               Intent myIntent = new Intent(this, Aboutus.class);
+               this.startActivity(myIntent);            }}
 
         return super.onOptionsItemSelected(item);
     }

@@ -21,7 +21,9 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.github.gitasimplified.Aboutus;
 import com.github.gitasimplified.Main2Activity;
+import com.github.gitasimplified.MainActivity;
 import com.github.gitasimplified.NewsAdapter;
 import com.github.gitasimplified.NewsItem;
 import com.github.gitasimplified.R;
@@ -245,24 +247,22 @@ public class Chp17 extends AppCompatActivity
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings){
-            Intent myIntent = new Intent(this, com.github.gitasimplified.MainActivity.class);
+        if (id == R.id.meaning){
+            Intent myIntent = new Intent(this, MainActivity.class);
             this.startActivity(myIntent);
         }
 
-        if (id == R.id.action_settings2){
+        if (id == R.id.verses){
 
             Intent myIntent = new Intent(this, Main2Activity.class);
             this.startActivity(myIntent);
 
         }
 
-        if (id == R.id.action_settings1){
+        if (id == R.id.Aboutus){
             {
-                return true;
-            }}
+                Intent myIntent = new Intent(this, Aboutus.class);
+                this.startActivity(myIntent);            }}
 
         return super.onOptionsItemSelected(item);
     }
