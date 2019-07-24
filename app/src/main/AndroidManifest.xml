@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Aboutus"></activity>
+        <activity android:name=".Aboutus" />
         <activity android:name=".chp.Chp18" />
         <activity android:name=".chp.Chp17" />
         <activity android:name=".chp.Chp16" />
@@ -28,6 +28,23 @@
         <activity android:name=".chp.Chp3" />
         <activity android:name=".chp.Chp2" />
         <activity android:name=".Main2Activity" />
+        <activity android:name=".vchp.Vchp2" />
+        <activity android:name=".vchp.Vchp3" />
+        <activity android:name=".vchp.Vchp4" />
+        <activity android:name=".vchp.Vchp5" />
+        <activity android:name=".vchp.Vchp6" />
+        <activity android:name=".vchp.Vchp7" />
+        <activity android:name=".vchp.Vchp8" />
+        <activity android:name=".vchp.Vchp9" />
+        <activity android:name=".vchp.Vchp10" />
+        <activity android:name=".vchp.Vchp11" />
+        <activity android:name=".vchp.Vchp12" />
+        <activity android:name=".vchp.Vchp13" />
+        <activity android:name=".vchp.Vchp14" />
+        <activity android:name=".vchp.Vchp15" />
+        <activity android:name=".vchp.Vchp16" />
+        <activity android:name=".vchp.Vchp17" />
+        <activity android:name=".vchp.Vchp18" />
         <activity
             android:name=".Splash"
             android:label="@string/app_name"

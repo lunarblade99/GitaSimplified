@@ -21,36 +21,21 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.github.gitasimplified.Aboutus;
 import com.github.gitasimplified.Main2Activity;
-import com.github.gitasimplified.NewsAdapter;
+import com.github.gitasimplified.MainActivity;
+import com.github.gitasimplified.NewsAdapter2;
 import com.github.gitasimplified.NewsItem;
 import com.github.gitasimplified.R;
-import com.github.gitasimplified.chp.Chp10;
-import com.github.gitasimplified.chp.Chp11;
-import com.github.gitasimplified.chp.Chp12;
-import com.github.gitasimplified.chp.Chp13;
-import com.github.gitasimplified.chp.Chp14;
-import com.github.gitasimplified.chp.Chp15;
-import com.github.gitasimplified.chp.Chp16;
-import com.github.gitasimplified.chp.Chp17;
-import com.github.gitasimplified.chp.Chp18;
-import com.github.gitasimplified.chp.Chp2;
-import com.github.gitasimplified.chp.Chp3;
-import com.github.gitasimplified.chp.Chp4;
-import com.github.gitasimplified.chp.Chp5;
-import com.github.gitasimplified.chp.Chp6;
-import com.github.gitasimplified.chp.Chp7;
-import com.github.gitasimplified.chp.Chp8;
-import com.github.gitasimplified.chp.Chp9;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class vchp3 extends AppCompatActivity
+public class Vchp17 extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     RecyclerView NewsRecyclerview;
-    NewsAdapter newsAdapter;
+    NewsAdapter2 newsAdapter;
     List<NewsItem> mData;
     FloatingActionButton fabSwitcher;
     boolean isDark = false;
@@ -71,13 +56,13 @@ public class vchp3 extends AppCompatActivity
             NewsItem thisItem = mData.get(position);
 
             if(position == 0) {
-                Toast.makeText(vchp3.this, "You Clicked: " + thisItem.getTitle(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(Vchp17.this, "You Clicked: " + thisItem.getTitle(), Toast.LENGTH_SHORT).show();
             }
             if(position == 1) {
-                Toast.makeText(vchp3.this, "You Clicked: " + thisItem.getTitle(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(Vchp17.this, "You Clicked: " + thisItem.getTitle(), Toast.LENGTH_SHORT).show();
             }
             if(position == 2) {
-                Toast.makeText(vchp3.this, "You Clicked: " + thisItem.getTitle(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(Vchp17.this, "You Clicked: " + thisItem.getTitle(), Toast.LENGTH_SHORT).show();
             }
 
         }
@@ -87,12 +72,14 @@ public class vchp3 extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-       // requestWindowFeature(Window.FEATURE_NO_TITLE);
+        //requestWindowFeature(Window.FEATURE_NO_TITLE);
        // getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-         //       WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        //        WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main);
+
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
@@ -101,7 +88,7 @@ public class vchp3 extends AppCompatActivity
         drawer.addDrawerListener(toggle);
         toggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
-        navigationView.getMenu().getItem(0).setChecked(true);
+        navigationView.getMenu().getItem(16).setChecked(true);
 
         /////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -140,37 +127,26 @@ public class vchp3 extends AppCompatActivity
             rootLayout.setBackgroundColor(getResources().getColor(R.color.colorPrimaryt));
 
         }
-
-
-
         // fill list news with data
         // just for testing purpose i will fill the news list with random data
         // you may get your data from an api / firebase or sqlite database ...
-        mData.add(new NewsItem("I Programming And Design","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,","6 july 1994",R.drawable.circul6));
-        mData.add(new NewsItem("My first trip to Thailand story ","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","6 july 1994",R.drawable.uservoyager));
-        mData.add(new NewsItem("After Facebook Messenger","Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,","6 july 1994",R.drawable.useillust));
-        mData.add(new NewsItem("Isometric Design Grid Concept","lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit","6 july 1994",R.drawable.circul6));
-        mData.add(new NewsItem("Android R Design Concept 4K","lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit ","6 july 1994",R.drawable.user));
+        mData.add(new NewsItem("पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम् ।\n" + "व्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता ।।3।।","çré-bhagavän uväca—the Supreme Personality of Godhead said;kutaù—wherefrom; tvä—unto you; kaçmalam—dirtiness; idam—thislamentation; viñame—in this hour of crisis; samupasthitam—arrived;anärya—persons who do not know the value of life; juñöam—practiced by;asvargyam—which does not lead to higher planets; akérti—infamy;karam—the cause of; arjuna—O Arjuna.","çré-bhagavän uväca\n" + "kutas tvä kaçmalam idaà\n" + "viñame samupasthitam\n" + "anärya-juñöam asvargyam\n" + "akérti-karam arjuna",R.color.trans));
+        mData.add(new NewsItem("पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम् ।\n" + "व्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता ।।3।।","çré-bhagavän uväca—the Supreme Personality of Godhead said;kutaù—wherefrom; tvä—unto you; kaçmalam—dirtiness; idam—thislamentation; viñame—in this hour of crisis; samupasthitam—arrived;anärya—persons who do not know the value of life; juñöam—practiced by;asvargyam—which does not lead to higher planets; akérti—infamy;karam—the cause of; arjuna—O Arjuna.","çré-bhagavän uväca\n" + "kutas tvä kaçmalam idaà\n" + "viñame samupasthitam\n" + "anärya-juñöam asvargyam\n" + "akérti-karam arjuna",R.color.trans));
+        mData.add(new NewsItem("पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम् ।\n" + "व्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता ।।3।।","çré-bhagavän uväca—the Supreme Personality of Godhead said;kutaù—wherefrom; tvä—unto you; kaçmalam—dirtiness; idam—thislamentation; viñame—in this hour of crisis; samupasthitam—arrived;anärya—persons who do not know the value of life; juñöam—practiced by;asvargyam—which does not lead to higher planets; akérti—infamy;karam—the cause of; arjuna—O Arjuna.","çré-bhagavän uväca\n" + "kutas tvä kaçmalam idaà\n" + "viñame samupasthitam\n" + "anärya-juñöam asvargyam\n" + "akérti-karam arjuna",R.color.trans));
+        mData.add(new NewsItem("पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम् ।\n" + "व्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता ।।3।।","çré-bhagavän uväca—the Supreme Personality of Godhead said;kutaù—wherefrom; tvä—unto you; kaçmalam—dirtiness; idam—thislamentation; viñame—in this hour of crisis; samupasthitam—arrived;anärya—persons who do not know the value of life; juñöam—practiced by;asvargyam—which does not lead to higher planets; akérti—infamy;karam—the cause of; arjuna—O Arjuna.","çré-bhagavän uväca\n" + "kutas tvä kaçmalam idaà\n" + "viñame samupasthitam\n" + "anärya-juñöam asvargyam\n" + "akérti-karam arjuna",R.color.trans));
+        mData.add(new NewsItem("पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम् ।\n" + "व्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता ।।3।।","çré-bhagavän uväca—the Supreme Personality of Godhead said;kutaù—wherefrom; tvä—unto you; kaçmalam—dirtiness; idam—thislamentation; viñame—in this hour of crisis; samupasthitam—arrived;anärya—persons who do not know the value of life; juñöam—practiced by;asvargyam—which does not lead to higher planets; akérti—infamy;karam—the cause of; arjuna—O Arjuna.","çré-bhagavän uväca\n" + "kutas tvä kaçmalam idaà\n" + "viñame samupasthitam\n" + "anärya-juñöam asvargyam\n" + "akérti-karam arjuna",R.color.trans));
+        mData.add(new NewsItem("पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम् ।\n" + "व्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता ।।3।।","çré-bhagavän uväca—the Supreme Personality of Godhead said;kutaù—wherefrom; tvä—unto you; kaçmalam—dirtiness; idam—thislamentation; viñame—in this hour of crisis; samupasthitam—arrived;anärya—persons who do not know the value of life; juñöam—practiced by;asvargyam—which does not lead to higher planets; akérti—infamy;karam—the cause of; arjuna—O Arjuna.","çré-bhagavän uväca\n" + "kutas tvä kaçmalam idaà\n" + "viñame samupasthitam\n" + "anärya-juñöam asvargyam\n" + "akérti-karam arjuna",R.color.trans));
+        mData.add(new NewsItem("पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम् ।\n" + "व्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता ।।3।।","çré-bhagavän uväca—the Supreme Personality of Godhead said;kutaù—wherefrom; tvä—unto you; kaçmalam—dirtiness; idam—thislamentation; viñame—in this hour of crisis; samupasthitam—arrived;anärya—persons who do not know the value of life; juñöam—practiced by;asvargyam—which does not lead to higher planets; akérti—infamy;karam—the cause of; arjuna—O Arjuna.","çré-bhagavän uväca\n" + "kutas tvä kaçmalam idaà\n" + "viñame samupasthitam\n" + "anärya-juñöam asvargyam\n" + "akérti-karam arjuna",R.color.trans));
         mData.add(new NewsItem("OnePlus 6T Camera Review:","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","6 july 1994",R.drawable.user));
-        mData.add(new NewsItem("I love Programming And Design","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,","6 july 1994",R.drawable.circul6));
-        mData.add(new NewsItem("My first trip to Thailand story ","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","6 july 1994",R.drawable.uservoyager));
-        mData.add(new NewsItem("After Facebook Messengerets...","Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,","6 july 1994",R.drawable.useillust));
-        mData.add(new NewsItem("Isometric Design Grid Concept","lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit","6 july 1994",R.drawable.circul6));
-        mData.add(new NewsItem("Android R Design Concept 4K","lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit ","6 july 1994",R.drawable.user));
         mData.add(new NewsItem("OnePlus 6T Camera Review:","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","6 july 1994",R.drawable.user));
-        mData.add(new NewsItem("I love Programming And Design","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,","6 july 1994",R.drawable.circul6));
-        mData.add(new NewsItem("My first trip to Thailand story ","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","6 july 1994",R.drawable.uservoyager));
-        mData.add(new NewsItem("After Facebook Messengs...","Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,","6 july 1994",R.drawable.useillust));
-        mData.add(new NewsItem("Isometric Design Grid Concept","lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit","6 july 1994",R.drawable.circul6));
-        mData.add(new NewsItem("Android R Design Concept 4K","lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit ","6 july 1994",R.drawable.user));
 
 
         // adapter ini and setup
 
-        newsAdapter = new NewsAdapter(this,mData,isDark);
+        newsAdapter = new NewsAdapter2(this,mData,isDark);
         NewsRecyclerview.setAdapter(newsAdapter);
         NewsRecyclerview.setLayoutManager(new LinearLayoutManager(this));
-        NewsAdapter.setOnItemClickListener(onItemClickListener);
+        NewsAdapter2.setOnItemClickListener(onItemClickListener);
 
         fabSwitcher.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -187,7 +163,7 @@ public class vchp3 extends AppCompatActivity
                     searchInput.setBackgroundResource(R.drawable.search_input_style);
                 }
 
-                newsAdapter = new NewsAdapter(getApplicationContext(),mData,isDark);
+                newsAdapter = new NewsAdapter2(getApplicationContext(),mData,isDark);
                 if (!search.toString().isEmpty()){
 
                     newsAdapter.getFilter().filter(search);
@@ -195,6 +171,7 @@ public class vchp3 extends AppCompatActivity
                 }
                 NewsRecyclerview.setAdapter(newsAdapter);
                 saveThemeStatePref(isDark);
+
 
 
 
@@ -270,21 +247,21 @@ public class vchp3 extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.meaning){
-            Intent myIntent = new Intent(this, vchp3.class);
+            Intent myIntent = new Intent(this, MainActivity.class);
             this.startActivity(myIntent);
         }
 
         if (id == R.id.verses){
 
-                Intent myIntent = new Intent(this, Main2Activity.class);
-                this.startActivity(myIntent);
+            Intent myIntent = new Intent(this, Vchp17.class);
+            this.startActivity(myIntent);
 
         }
 
         if (id == R.id.Aboutus){
-           {
-                return true;
-            }}
+            {
+                Intent myIntent = new Intent(this, Aboutus.class);
+                this.startActivity(myIntent);            }}
 
         return super.onOptionsItemSelected(item);
     }
@@ -296,85 +273,85 @@ public class vchp3 extends AppCompatActivity
         int id2 = item.getItemId();
 
         if (id2 == R.id.one) {
-            Intent myIntent = new Intent(this, vchp3.class);
+            Intent myIntent = new Intent(this, Main2Activity.class);
             this.startActivity(myIntent);
 
         }
         if (id2 == R.id.two) {
-            Intent myIntent = new Intent(this, Chp2.class);
+            Intent myIntent = new Intent(this, Vchp2.class);
             this.startActivity(myIntent);
 
         }
         if (id2 == R.id.three) {
-            Intent myIntent = new Intent(this, Chp3.class);
+            Intent myIntent = new Intent(this, Vchp3.class);
             this.startActivity(myIntent);
 
         }
         if (id2 == R.id.four) {
-            Intent myIntent = new Intent(this, Chp4.class);
+            Intent myIntent = new Intent(this, Vchp4.class);
             this.startActivity(myIntent);
 
         }if (id2 == R.id.five) {
-            Intent myIntent = new Intent(this, Chp5.class);
+            Intent myIntent = new Intent(this, Vchp5.class);
             this.startActivity(myIntent);
 
         }
         if (id2 == R.id.six) {
-            Intent myIntent = new Intent(this, Chp6.class);
+            Intent myIntent = new Intent(this, Vchp6.class);
             this.startActivity(myIntent);
 
         }if (id2 == R.id.seven) {
-            Intent myIntent = new Intent(this, Chp7.class);
+            Intent myIntent = new Intent(this, Vchp7.class);
             this.startActivity(myIntent);
 
         }
         if (id2 == R.id.eight) {
-            Intent myIntent = new Intent(this, Chp8.class);
+            Intent myIntent = new Intent(this, Vchp8.class);
             this.startActivity(myIntent);
 
         }if (id2 == R.id.nine) {
-            Intent myIntent = new Intent(this, Chp9.class);
+            Intent myIntent = new Intent(this, Vchp9.class);
             this.startActivity(myIntent);
 
         }
         if (id2 == R.id.ten) {
-            Intent myIntent = new Intent(this, Chp10.class);
+            Intent myIntent = new Intent(this, Vchp10.class);
             this.startActivity(myIntent);
 
         }if (id2 == R.id.eleven) {
-            Intent myIntent = new Intent(this, Chp11.class);
+            Intent myIntent = new Intent(this, Vchp11.class);
             this.startActivity(myIntent);
 
         }
         if (id2 == R.id.twelve) {
-            Intent myIntent = new Intent(this, Chp12.class);
+            Intent myIntent = new Intent(this, Vchp12.class);
             this.startActivity(myIntent);
 
         }if (id2 == R.id.thirteen) {
-            Intent myIntent = new Intent(this, Chp13.class);
+            Intent myIntent = new Intent(this, Vchp13.class);
             this.startActivity(myIntent);
 
         }
         if (id2 == R.id.fourteen) {
-            Intent myIntent = new Intent(this, Chp14.class);
+            Intent myIntent = new Intent(this, Vchp14.class);
             this.startActivity(myIntent);
 
         }if (id2 == R.id.fifteen) {
-            Intent myIntent = new Intent(this, Chp15.class);
+            Intent myIntent = new Intent(this, Vchp15.class);
             this.startActivity(myIntent);
 
         }
         if (id2 == R.id.sixteen) {
-            Intent myIntent = new Intent(this, Chp16.class);
+            Intent myIntent = new Intent(this, Vchp16.class);
             this.startActivity(myIntent);
 
         }if (id2 == R.id.seventeen) {
-            Intent myIntent = new Intent(this, Chp17.class);
+            Intent myIntent = new Intent(this, Vchp17.class);
             this.startActivity(myIntent);
 
         }
         if (id2 == R.id.eighteen) {
-            Intent myIntent = new Intent(this, Chp18.class);
+            Intent myIntent = new Intent(this, Vchp18.class);
             this.startActivity(myIntent);
 
         }
