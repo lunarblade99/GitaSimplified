@@ -22,6 +22,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.github.gitasimplified.Aboutus;
+import com.github.gitasimplified.Explaination;
 import com.github.gitasimplified.Main2Activity;
 import com.github.gitasimplified.MainActivity;
 import com.github.gitasimplified.NewsAdapter;
@@ -248,14 +249,24 @@ public class Chp14 extends AppCompatActivity
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
+        //noinspection SimplifiableIfStatement
         if (id == R.id.meaning){
+
             Intent myIntent = new Intent(this, MainActivity.class);
             this.startActivity(myIntent);
+
         }
 
         if (id == R.id.verses){
 
             Intent myIntent = new Intent(this, Main2Activity.class);
+            this.startActivity(myIntent);
+
+        }
+
+        if (id == R.id.explain){
+
+            Intent myIntent = new Intent(this, Explaination.class);
             this.startActivity(myIntent);
 
         }
@@ -267,6 +278,7 @@ public class Chp14 extends AppCompatActivity
 
         return super.onOptionsItemSelected(item);
     }
+
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override

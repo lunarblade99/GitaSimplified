@@ -19,7 +19,10 @@
         <item
             android:id="@+id/four"
             android:icon="@drawable/ic_four"
-            android:title="4.Renunciation of Action with knowledge" />  <item
+            android:title="@string/_4_renunciation_of_action_with_knowledge"
+            android:titleCondensed="@string/_4_renunciation_of_action_with_knowledge"
+            />
+        <item
         android:id="@+id/five"
         android:icon="@drawable/ic_five"
         android:title="5.Renunciation of Action" />  <item

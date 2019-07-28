@@ -22,6 +22,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.github.gitasimplified.Aboutus;
+import com.github.gitasimplified.Explaination;
 import com.github.gitasimplified.Main2Activity;
 import com.github.gitasimplified.MainActivity;
 import com.github.gitasimplified.NewsAdapter2;
@@ -234,7 +235,7 @@ public class Vchp18 extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
+        getMenuInflater().inflate(R.menu.main2, menu);
         return true;
     }
 
@@ -247,13 +248,22 @@ public class Vchp18 extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.meaning){
+
             Intent myIntent = new Intent(this, MainActivity.class);
             this.startActivity(myIntent);
+
         }
 
         if (id == R.id.verses){
 
-            Intent myIntent = new Intent(this, Vchp18.class);
+            Intent myIntent = new Intent(this, Main2Activity.class);
+            this.startActivity(myIntent);
+
+        }
+
+        if (id == R.id.explain){
+
+            Intent myIntent = new Intent(this, Explaination.class);
             this.startActivity(myIntent);
 
         }
@@ -265,6 +275,7 @@ public class Vchp18 extends AppCompatActivity
 
         return super.onOptionsItemSelected(item);
     }
+
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override

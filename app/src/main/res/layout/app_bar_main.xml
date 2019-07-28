@@ -20,7 +20,6 @@
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
             app:title="श्री कृष्ण शरणम ममः"
-            app:titleMargin="0dp"
             android:textAlignment="center"
             app:popupTheme="@style/AppTheme.PopupOverlay"
             />

@@ -13,9 +13,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
-        android:padding="50dp"
         android:layout_marginBottom="100dp"
-        app:srcCompat="@drawable/ic_archer01_sports"
+        app:srcCompat="@drawable/ic_chibi_lord_krishna_by_chibistupid_d47fooa_pre"
         tools:ignore="VectorDrawableCompat" />
 
     <TextView
@@ -24,7 +23,7 @@
         android:text="GITA SIMPLIFIED \nversion 1.0"
         android:layout_centerInParent="true"
         android:gravity="center"
-        android:paddingTop="350dp"
+        android:paddingTop="300dp"
         android:textStyle="bold"
         android:textColor="@color/white"
         />

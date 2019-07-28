@@ -1,5 +1,6 @@
 package com.github.gitasimplified;
 
+import android.content.ClipData;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -19,6 +20,7 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -105,11 +107,7 @@ public class MainActivity extends AppCompatActivity
         // let's make this activity on full screen
 
 
-
-
         // hide the action bar
-
-
 
 
         // ini view
@@ -246,6 +244,7 @@ public class MainActivity extends AppCompatActivity
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
+
     }
 
     @Override
@@ -257,21 +256,30 @@ public class MainActivity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.meaning){
+
             Intent myIntent = new Intent(this, MainActivity.class);
             this.startActivity(myIntent);
+
         }
 
         if (id == R.id.verses){
 
-                Intent myIntent = new Intent(this, Main2Activity.class);
-                this.startActivity(myIntent);
+            Intent myIntent = new Intent(this, Main2Activity.class);
+            this.startActivity(myIntent);
+
+        }
+
+        if (id == R.id.explain){
+
+            Intent myIntent = new Intent(this, Explaination.class);
+            this.startActivity(myIntent);
 
         }
 
         if (id == R.id.Aboutus){
-           {
-               Intent myIntent = new Intent(this, Aboutus.class);
-               this.startActivity(myIntent);            }}
+            {
+                Intent myIntent = new Intent(this, Aboutus.class);
+                this.startActivity(myIntent);            }}
 
         return super.onOptionsItemSelected(item);
     }
@@ -372,4 +380,6 @@ public class MainActivity extends AppCompatActivity
         return true;
 
     }
+
+
 }

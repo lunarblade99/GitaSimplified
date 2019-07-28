@@ -6,11 +6,11 @@
     android:layout_height="match_parent"
     android:background="@color/white"
     >
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/white"
-        >
+        android:background="@color/white">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -35,26 +35,27 @@
                 android:textSize="21sp"
                 android:textStyle="bold" />
         </LinearLayout>
+
         <android.support.v7.widget.CardView
             android:id="@+id/cardy"
             android:layout_width="match_parent"
             android:layout_height="95dp"
-            android:layout_marginStart="15dp"
-            android:layout_marginEnd="15dp"
             android:layout_centerHorizontal="true"
+            android:layout_marginStart="15dp"
             android:layout_marginTop="235dp"
-            app:cardElevation="8dp"
+            android:layout_marginEnd="15dp"
             app:cardCornerRadius="10dp"
-            >
+            app:cardElevation="8dp">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
-                android:weightSum="3"
-                >
+                android:weightSum="3">
 
 
                 <LinearLayout
+                    android:id="@+id/li1"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -79,50 +80,56 @@
 
 
                 </LinearLayout>
+
                 <LinearLayout
-                    android:gravity="center"
-                    android:orientation="vertical"
                     android:layout_width="0dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:layout_height="match_parent">
+                    android:gravity="center"
+                    android:id="@+id/li2"
+                    android:orientation="vertical">
+
                     <TextView
                         android:id="@+id/txtverse"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Verses"
-                        android:textSize="17dp"
-                        />
+                        android:textSize="17dp" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="700"
-                        android:textStyle="bold"
-                        android:textSize="20sp"
                         android:paddingTop="10dp"
-                        android:textColor="@color/endblue"/>
+                        android:text="700"
+                        android:textColor="@color/endblue"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
 
                 </LinearLayout>
+
                 <LinearLayout
-                    android:gravity="center"
-                    android:orientation="vertical"
                     android:layout_width="0dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:layout_height="match_parent">
+                    android:gravity="center"
+                    android:id="@+id/li3"
+                    android:orientation="vertical">
+
                     <TextView
                         android:id="@+id/txtsyl"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="syllables"
-                        android:textSize="17dp"
-                        />
+                        android:textSize="17dp" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="32"
-                        android:textStyle="bold"
-                        android:textSize="20sp"
                         android:paddingTop="10dp"
-                        android:textColor="@color/endblue"/>
+                        android:text="32"
+                        android:textColor="@color/endblue"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
 
                 </LinearLayout>
 
@@ -131,104 +138,112 @@
         </android.support.v7.widget.CardView>
 
 
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
             android:layout_alignBottom="@+id/fbut"
-            android:layout_marginBottom="60dp"
+            android:layout_marginBottom="65dp"
             android:background="@color/white"
-            >
-            <LinearLayout
-                android:orientation="horizontal"
-                android:paddingLeft="25dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <ImageView
-                    android:layout_width="36dp"
-                    android:layout_height="36dp"
-                    android:src="@drawable/ic_gmail"/>
-                <TextView
-                    android:textStyle="bold"
-                    android:layout_gravity="center_vertical"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="20dp"
-                    android:text="Sanjeev.jadhav99@gmail.com"/>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_marginTop="15dp"
-                android:orientation="horizontal"
-                android:paddingLeft="25dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <ImageView
-                    android:layout_width="36dp"
-                    android:layout_height="36dp"
-                    android:src="@drawable/ic_smartphone"/>
-                <TextView
-                    android:textStyle="bold"
+            android:orientation="vertical">
 
-                    android:layout_gravity="center_vertical"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="20dp"
-                    android:text="+919867410605"/>
-            </LinearLayout>
             <LinearLayout
-                android:layout_marginTop="15dp"
-                android:orientation="horizontal"
-                android:paddingLeft="25dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="25dp">
+
                 <ImageView
                     android:layout_width="36dp"
                     android:layout_height="36dp"
-                    android:src="@drawable/ic_share"/>
+                    android:src="@drawable/ic_letter" />
+
                 <TextView
-                    android:textStyle="bold"
-                    android:layout_gravity="center_vertical"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
                     android:paddingLeft="20dp"
-                    android:text="Share This App"/>
+                    android:text="Sanjeev.jadhav99@gmail.com"
+                    android:textStyle="bold" />
             </LinearLayout>
+
             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:orientation="horizontal"
-                android:paddingLeft="25dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:paddingLeft="25dp">
+
                 <ImageView
                     android:layout_width="36dp"
                     android:layout_height="36dp"
-                    android:src="@drawable/ic_heartbeat"/>
+                    android:src="@drawable/ic_call" />
+
                 <TextView
-                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="20dp"
+                    android:text="+919867410605"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                android:paddingLeft="25dp">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/ic_database" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="20dp"
+                    android:text="Share This App"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                android:paddingLeft="25dp">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/ic_therapy" />
+
+                <TextView
                     android:id="@+id/thanku"
-                    android:layout_gravity="center_vertical"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
                     android:paddingLeft="20dp"
-                    android:text="Thank You Guy's"/>
+                    android:text="Thank You Guy's"
+                    android:textStyle="bold" />
             </LinearLayout>
 
         </LinearLayout>
 
         <Button
+            android:id="@+id/fbut"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="RETURN BACK"
-            android:id="@+id/fbut"
-            android:layout_marginBottom="5dp"
-            android:textColor="@color/white"
-            android:background="@drawable/buttonstyle"
-            android:layout_gravity="center_horizontal"
             android:layout_alignParentBottom="true"
             android:layout_centerInParent="true"
-            />
-
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/buttonstyle"
+            android:text="RETURN BACK"
+            android:textColor="@color/white" />
 
 
     </RelativeLayout>

@@ -8,7 +8,6 @@
     android:layout_marginTop="8dp"
     >
 
-
     <RelativeLayout
         android:paddingBottom="16dp"
         android:id="@+id/container"

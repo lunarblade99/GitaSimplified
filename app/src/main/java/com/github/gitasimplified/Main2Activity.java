@@ -167,8 +167,19 @@ public class Main2Activity extends AppCompatActivity
         mData.add(new NewsItem("पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम् ।\n" + "व्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता ।।3।।","çré-bhagavän uväca—the Supreme Personality of Godhead said;kutaù—wherefrom; tvä—unto you; kaçmalam—dirtiness; idam—thislamentation; viñame—in this hour of crisis; samupasthitam—arrived;anärya—persons who do not know the value of life; juñöam—practiced by;asvargyam—which does not lead to higher planets; akérti—infamy;karam—the cause of; arjuna—O Arjuna.","çré-bhagavän uväca\n" + "kutas tvä kaçmalam idaà\n" + "viñame samupasthitam\n" + "anärya-juñöam asvargyam\n" + "akérti-karam arjuna",R.color.trans));
         mData.add(new NewsItem("पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम् ।\n" + "व्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता ।।3।।","çré-bhagavän uväca—the Supreme Personality of Godhead said;kutaù—wherefrom; tvä—unto you; kaçmalam—dirtiness; idam—thislamentation; viñame—in this hour of crisis; samupasthitam—arrived;anärya—persons who do not know the value of life; juñöam—practiced by;asvargyam—which does not lead to higher planets; akérti—infamy;karam—the cause of; arjuna—O Arjuna.","çré-bhagavän uväca\n" + "kutas tvä kaçmalam idaà\n" + "viñame samupasthitam\n" + "anärya-juñöam asvargyam\n" + "akérti-karam arjuna",R.color.trans));
         mData.add(new NewsItem("पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम् ।\n" + "व्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता ।।3।।","çré-bhagavän uväca—the Supreme Personality of Godhead said;kutaù—wherefrom; tvä—unto you; kaçmalam—dirtiness; idam—thislamentation; viñame—in this hour of crisis; samupasthitam—arrived;anärya—persons who do not know the value of life; juñöam—practiced by;asvargyam—which does not lead to higher planets; akérti—infamy;karam—the cause of; arjuna—O Arjuna.","çré-bhagavän uväca\n" + "kutas tvä kaçmalam idaà\n" + "viñame samupasthitam\n" + "anärya-juñöam asvargyam\n" + "akérti-karam arjuna",R.color.trans));
-        mData.add(new NewsItem("OnePlus 6T Camera Review:","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","6 july 1994",R.drawable.user));
-        mData.add(new NewsItem("OnePlus 6T Camera Review:","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","6 july 1994",R.drawable.user));
+        mData.add(new NewsItem("पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम् ।\n" + "व्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता ।।3।।","çré-bhagavän uväca—the Supreme Personality of Godhead said;kutaù—wherefrom; tvä—unto you; kaçmalam—dirtiness; idam—thislamentation; viñame—in this hour of crisis; samupasthitam—arrived;anärya—persons who do not know the value of life; juñöam—practiced by;asvargyam—which does not lead to higher planets; akérti—infamy;karam—the cause of; arjuna—O Arjuna.","çré-bhagavän uväca\n" + "kutas tvä kaçmalam idaà\n" + "viñame samupasthitam\n" + "anärya-juñöam asvargyam\n" + "akérti-karam arjuna",R.color.trans));
+        mData.add(new NewsItem("पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम् ।\n" + "व्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता ।।3।।","çré-bhagavän uväca—the Supreme Personality of Godhead said;kutaù—wherefrom; tvä—unto you; kaçmalam—dirtiness; idam—thislamentation; viñame—in this hour of crisis; samupasthitam—arrived;anärya—persons who do not know the value of life; juñöam—practiced by;asvargyam—which does not lead to higher planets; akérti—infamy;karam—the cause of; arjuna—O Arjuna.","çré-bhagavän uväca\n" + "kutas tvä kaçmalam idaà\n" + "viñame samupasthitam\n" + "anärya-juñöam asvargyam\n" + "akérti-karam arjuna",R.color.trans));
+        mData.add(new NewsItem("पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम् ।\n" + "व्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता ।।3।।","çré-bhagavän uväca—the Supreme Personality of Godhead said;kutaù—wherefrom; tvä—unto you; kaçmalam—dirtiness; idam—thislamentation; viñame—in this hour of crisis; samupasthitam—arrived;anärya—persons who do not know the value of life; juñöam—practiced by;asvargyam—which does not lead to higher planets; akérti—infamy;karam—the cause of; arjuna—O Arjuna.","çré-bhagavän uväca\n" + "kutas tvä kaçmalam idaà\n" + "viñame samupasthitam\n" + "anärya-juñöam asvargyam\n" + "akérti-karam arjuna",R.color.trans));
+        mData.add(new NewsItem("पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम् ।\n" + "व्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता ।।3।।","çré-bhagavän uväca—the Supreme Personality of Godhead said;kutaù—wherefrom; tvä—unto you; kaçmalam—dirtiness; idam—thislamentation; viñame—in this hour of crisis; samupasthitam—arrived;anärya—persons who do not know the value of life; juñöam—practiced by;asvargyam—which does not lead to higher planets; akérti—infamy;karam—the cause of; arjuna—O Arjuna.","çré-bhagavän uväca\n" + "kutas tvä kaçmalam idaà\n" + "viñame samupasthitam\n" + "anärya-juñöam asvargyam\n" + "akérti-karam arjuna",R.color.trans));
+        mData.add(new NewsItem("पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम् ।\n" + "व्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता ।।3।।","çré-bhagavän uväca—the Supreme Personality of Godhead said;kutaù—wherefrom; tvä—unto you; kaçmalam—dirtiness; idam—thislamentation; viñame—in this hour of crisis; samupasthitam—arrived;anärya—persons who do not know the value of life; juñöam—practiced by;asvargyam—which does not lead to higher planets; akérti—infamy;karam—the cause of; arjuna—O Arjuna.","çré-bhagavän uväca\n" + "kutas tvä kaçmalam idaà\n" + "viñame samupasthitam\n" + "anärya-juñöam asvargyam\n" + "akérti-karam arjuna",R.color.trans));
+        mData.add(new NewsItem("पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम् ।\n" + "व्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता ।।3।।","çré-bhagavän uväca—the Supreme Personality of Godhead said;kutaù—wherefrom; tvä—unto you; kaçmalam—dirtiness; idam—thislamentation; viñame—in this hour of crisis; samupasthitam—arrived;anärya—persons who do not know the value of life; juñöam—practiced by;asvargyam—which does not lead to higher planets; akérti—infamy;karam—the cause of; arjuna—O Arjuna.","çré-bhagavän uväca\n" + "kutas tvä kaçmalam idaà\n" + "viñame samupasthitam\n" + "anärya-juñöam asvargyam\n" + "akérti-karam arjuna",R.color.trans));
+        mData.add(new NewsItem("पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम् ।\n" + "व्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता ।।3।।","çré-bhagavän uväca—the Supreme Personality of Godhead said;kutaù—wherefrom; tvä—unto you; kaçmalam—dirtiness; idam—thislamentation; viñame—in this hour of crisis; samupasthitam—arrived;anärya—persons who do not know the value of life; juñöam—practiced by;asvargyam—which does not lead to higher planets; akérti—infamy;karam—the cause of; arjuna—O Arjuna.","çré-bhagavän uväca\n" + "kutas tvä kaçmalam idaà\n" + "viñame samupasthitam\n" + "anärya-juñöam asvargyam\n" + "akérti-karam arjuna",R.color.trans));
+        mData.add(new NewsItem("पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम् ।\n" + "व्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता ।।3।।","çré-bhagavän uväca—the Supreme Personality of Godhead said;kutaù—wherefrom; tvä—unto you; kaçmalam—dirtiness; idam—thislamentation; viñame—in this hour of crisis; samupasthitam—arrived;anärya—persons who do not know the value of life; juñöam—practiced by;asvargyam—which does not lead to higher planets; akérti—infamy;karam—the cause of; arjuna—O Arjuna.","çré-bhagavän uväca\n" + "kutas tvä kaçmalam idaà\n" + "viñame samupasthitam\n" + "anärya-juñöam asvargyam\n" + "akérti-karam arjuna",R.color.trans));
+        mData.add(new NewsItem("पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम् ।\n" + "व्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता ।।3।।","çré-bhagavän uväca—the Supreme Personality of Godhead said;kutaù—wherefrom; tvä—unto you; kaçmalam—dirtiness; idam—thislamentation; viñame—in this hour of crisis; samupasthitam—arrived;anärya—persons who do not know the value of life; juñöam—practiced by;asvargyam—which does not lead to higher planets; akérti—infamy;karam—the cause of; arjuna—O Arjuna.","çré-bhagavän uväca\n" + "kutas tvä kaçmalam idaà\n" + "viñame samupasthitam\n" + "anärya-juñöam asvargyam\n" + "akérti-karam arjuna",R.color.trans));
+        mData.add(new NewsItem("पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम् ।\n" + "व्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता ।।3।।","çré-bhagavän uväca—the Supreme Personality of Godhead said;kutaù—wherefrom; tvä—unto you; kaçmalam—dirtiness; idam—thislamentation; viñame—in this hour of crisis; samupasthitam—arrived;anärya—persons who do not know the value of life; juñöam—practiced by;asvargyam—which does not lead to higher planets; akérti—infamy;karam—the cause of; arjuna—O Arjuna.","çré-bhagavän uväca\n" + "kutas tvä kaçmalam idaà\n" + "viñame samupasthitam\n" + "anärya-juñöam asvargyam\n" + "akérti-karam arjuna",R.color.trans));
+        mData.add(new NewsItem("पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम् ।\n" + "व्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता ।।3।।","çré-bhagavän uväca—the Supreme Personality of Godhead said;kutaù—wherefrom; tvä—unto you; kaçmalam—dirtiness; idam—thislamentation; viñame—in this hour of crisis; samupasthitam—arrived;anärya—persons who do not know the value of life; juñöam—practiced by;asvargyam—which does not lead to higher planets; akérti—infamy;karam—the cause of; arjuna—O Arjuna.","çré-bhagavän uväca\n" + "kutas tvä kaçmalam idaà\n" + "viñame samupasthitam\n" + "anärya-juñöam asvargyam\n" + "akérti-karam arjuna",R.color.trans));
+        mData.add(new NewsItem("पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम् ।\n" + "व्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता ।।3।।","çré-bhagavän uväca—the Supreme Personality of Godhead said;kutaù—wherefrom; tvä—unto you; kaçmalam—dirtiness; idam—thislamentation; viñame—in this hour of crisis; samupasthitam—arrived;anärya—persons who do not know the value of life; juñöam—practiced by;asvargyam—which does not lead to higher planets; akérti—infamy;karam—the cause of; arjuna—O Arjuna.","çré-bhagavän uväca\n" + "kutas tvä kaçmalam idaà\n" + "viñame samupasthitam\n" + "anärya-juñöam asvargyam\n" + "akérti-karam arjuna",R.color.trans));
+        mData.add(new NewsItem("पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम् ।\n" + "व्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता ।।3।।","çré-bhagavän uväca—the Supreme Personality of Godhead said;kutaù—wherefrom; tvä—unto you; kaçmalam—dirtiness; idam—thislamentation; viñame—in this hour of crisis; samupasthitam—arrived;anärya—persons who do not know the value of life; juñöam—practiced by;asvargyam—which does not lead to higher planets; akérti—infamy;karam—the cause of; arjuna—O Arjuna.","çré-bhagavän uväca\n" + "kutas tvä kaçmalam idaà\n" + "viñame samupasthitam\n" + "anärya-juñöam asvargyam\n" + "akérti-karam arjuna",R.color.trans));
 
 
         // adapter ini and setup
@@ -264,7 +275,7 @@ public class Main2Activity extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
+        getMenuInflater().inflate(R.menu.main2, menu);
         return true;
     }
 
@@ -277,13 +288,22 @@ public class Main2Activity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.meaning){
+
             Intent myIntent = new Intent(this, MainActivity.class);
             this.startActivity(myIntent);
+
         }
 
         if (id == R.id.verses){
 
             Intent myIntent = new Intent(this, Main2Activity.class);
+            this.startActivity(myIntent);
+
+        }
+
+        if (id == R.id.explain){
+
+            Intent myIntent = new Intent(this, Explaination.class);
             this.startActivity(myIntent);
 
         }
@@ -295,6 +315,8 @@ public class Main2Activity extends AppCompatActivity
 
         return super.onOptionsItemSelected(item);
     }
+
+
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
