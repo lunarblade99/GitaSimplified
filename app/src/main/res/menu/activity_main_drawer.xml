@@ -19,8 +19,7 @@
         <item
             android:id="@+id/four"
             android:icon="@drawable/ic_four"
-            android:title="@string/_4_renunciation_of_action_with_knowledge"
-            android:titleCondensed="@string/_4_renunciation_of_action_with_knowledge"
+            android:title="Transcendental Knowledge"
             />
         <item
         android:id="@+id/five"

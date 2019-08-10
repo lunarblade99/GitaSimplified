@@ -38,6 +38,8 @@
             android:paddingTop="15dp"
             android:layout_below="@id/tv_title"
             android:text="TextView"
+            android:paddingStart="25dp"
+            android:paddingEnd="25dp"
             android:textColor="@color/content_text_color"
             />
         <TextView

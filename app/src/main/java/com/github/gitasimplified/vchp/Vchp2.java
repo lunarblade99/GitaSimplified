@@ -147,15 +147,80 @@ public class Vchp2 extends AppCompatActivity
         // fill list news with data
         // just for testing purpose i will fill the news list with random data
         // you may get your data from an api / firebase or sqlite database ...
-        mData.add(new NewsItem("2 पाण्डुपुत्राणामाचार्य महतीं चमूम् ।\n" + "व्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता ।।3।।","çré-bhagavän uväca—the Supreme Personality of Godhead said;kutaù—wherefrom; tvä—unto you; kaçmalam—dirtiness; idam—thislamentation; viñame—in this hour of crisis; samupasthitam—arrived;anärya—persons who do not know the value of life; juñöam—practiced by;asvargyam—which does not lead to higher planets; akérti—infamy;karam—the cause of; arjuna—O Arjuna.","çré-bhagavän uväca\n" + "kutas tvä kaçmalam idaà\n" + "viñame samupasthitam\n" + "anärya-juñöam asvargyam\n" + "akérti-karam arjuna",R.color.trans));
-        mData.add(new NewsItem("पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम् ।\n" + "व्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता ।।3।।","çré-bhagavän uväca—the Supreme Personality of Godhead said;kutaù—wherefrom; tvä—unto you; kaçmalam—dirtiness; idam—thislamentation; viñame—in this hour of crisis; samupasthitam—arrived;anärya—persons who do not know the value of life; juñöam—practiced by;asvargyam—which does not lead to higher planets; akérti—infamy;karam—the cause of; arjuna—O Arjuna.","çré-bhagavän uväca\n" + "kutas tvä kaçmalam idaà\n" + "viñame samupasthitam\n" + "anärya-juñöam asvargyam\n" + "akérti-karam arjuna",R.color.trans));
-        mData.add(new NewsItem("पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम् ।\n" + "व्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता ।।3।।","çré-bhagavän uväca—the Supreme Personality of Godhead said;kutaù—wherefrom; tvä—unto you; kaçmalam—dirtiness; idam—thislamentation; viñame—in this hour of crisis; samupasthitam—arrived;anärya—persons who do not know the value of life; juñöam—practiced by;asvargyam—which does not lead to higher planets; akérti—infamy;karam—the cause of; arjuna—O Arjuna.","çré-bhagavän uväca\n" + "kutas tvä kaçmalam idaà\n" + "viñame samupasthitam\n" + "anärya-juñöam asvargyam\n" + "akérti-karam arjuna",R.color.trans));
-        mData.add(new NewsItem("पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम् ।\n" + "व्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता ।।3।।","çré-bhagavän uväca—the Supreme Personality of Godhead said;kutaù—wherefrom; tvä—unto you; kaçmalam—dirtiness; idam—thislamentation; viñame—in this hour of crisis; samupasthitam—arrived;anärya—persons who do not know the value of life; juñöam—practiced by;asvargyam—which does not lead to higher planets; akérti—infamy;karam—the cause of; arjuna—O Arjuna.","çré-bhagavän uväca\n" + "kutas tvä kaçmalam idaà\n" + "viñame samupasthitam\n" + "anärya-juñöam asvargyam\n" + "akérti-karam arjuna",R.color.trans));
-        mData.add(new NewsItem("पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम् ।\n" + "व्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता ।।3।।","çré-bhagavän uväca—the Supreme Personality of Godhead said;kutaù—wherefrom; tvä—unto you; kaçmalam—dirtiness; idam—thislamentation; viñame—in this hour of crisis; samupasthitam—arrived;anärya—persons who do not know the value of life; juñöam—practiced by;asvargyam—which does not lead to higher planets; akérti—infamy;karam—the cause of; arjuna—O Arjuna.","çré-bhagavän uväca\n" + "kutas tvä kaçmalam idaà\n" + "viñame samupasthitam\n" + "anärya-juñöam asvargyam\n" + "akérti-karam arjuna",R.color.trans));
-        mData.add(new NewsItem("पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम् ।\n" + "व्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता ।।3।।","çré-bhagavän uväca—the Supreme Personality of Godhead said;kutaù—wherefrom; tvä—unto you; kaçmalam—dirtiness; idam—thislamentation; viñame—in this hour of crisis; samupasthitam—arrived;anärya—persons who do not know the value of life; juñöam—practiced by;asvargyam—which does not lead to higher planets; akérti—infamy;karam—the cause of; arjuna—O Arjuna.","çré-bhagavän uväca\n" + "kutas tvä kaçmalam idaà\n" + "viñame samupasthitam\n" + "anärya-juñöam asvargyam\n" + "akérti-karam arjuna",R.color.trans));
-        mData.add(new NewsItem("पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम् ।\n" + "व्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता ।।3।।","çré-bhagavän uväca—the Supreme Personality of Godhead said;kutaù—wherefrom; tvä—unto you; kaçmalam—dirtiness; idam—thislamentation; viñame—in this hour of crisis; samupasthitam—arrived;anärya—persons who do not know the value of life; juñöam—practiced by;asvargyam—which does not lead to higher planets; akérti—infamy;karam—the cause of; arjuna—O Arjuna.","çré-bhagavän uväca\n" + "kutas tvä kaçmalam idaà\n" + "viñame samupasthitam\n" + "anärya-juñöam asvargyam\n" + "akérti-karam arjuna",R.color.trans));
-        mData.add(new NewsItem("OnePlus 6T Camera Review:","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","6 july 1994",R.drawable.user));
-        mData.add(new NewsItem("OnePlus 6T Camera Review:","Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.","6 july 1994",R.drawable.user));
+        mData.add(new NewsItem("","","\n" + "\n" + "sañjaya uvācha\n" + "taṁ tathā kṛipayāviṣhṭamaśhru pūrṇākulekṣhaṇam\n" + "viṣhīdantamidaṁ vākyam uvācha madhusūdanaḥ\n",R.color.trans));
+        mData.add(new NewsItem("","","śhrī bhagavān uvācha\n" + "kutastvā kaśhmalamidaṁ viṣhame samupasthitam\n" + "anārya-juṣhṭamaswargyam akīrti-karam arjuna",R.color.trans));
+        mData.add(new NewsItem("","","klaibyaṁ mā sma gamaḥ pārtha naitat tvayyupapadyate\n" + "kṣhudraṁ hṛidaya-daurbalyaṁ tyaktvottiṣhṭha parantapa",R.color.trans));
+        mData.add(new NewsItem("","","arjuna uvācha\n" + "kathaṁ bhīṣhmam ahaṁ sankhye droṇaṁ cha madhusūdana\n" + "iṣhubhiḥ pratiyotsyāmi pūjārhāvari-sūdana",R.color.trans));
+        mData.add(new NewsItem("","","gurūnahatvā hi mahānubhāvān\n" + "śhreyo bhoktuṁ bhaikṣhyamapīha loke\n" + "hatvārtha-kāmāṁstu gurūnihaiva\n" + "bhuñjīya bhogān rudhira-pradigdhān",R.color.trans));
+        mData.add(new NewsItem("","","na chaitadvidmaḥ kataranno garīyo\n" + "yadvā jayema yadi vā no jayeyuḥ\n" + "yāneva hatvā na jijīviṣhāmas\n" + "te ’vasthitāḥ pramukhe dhārtarāṣhṭrāḥ",R.color.trans));
+        mData.add(new NewsItem("","","kārpaṇya-doṣhopahata-svabhāvaḥ\n" + "pṛichchhāmi tvāṁ dharma-sammūḍha-chetāḥ\n" + "yach-chhreyaḥ syānniśhchitaṁ brūhi tanme\n" + "śhiṣhyaste ’haṁ śhādhi māṁ tvāṁ prapannam",R.color.trans));
+        mData.add(new NewsItem("","","na hi prapaśhyāmi mamāpanudyād\n" + "yach-chhokam uchchhoṣhaṇam-indriyāṇām\n" + "avāpya bhūmāv-asapatnamṛiddhaṁ\n" + "rājyaṁ surāṇāmapi chādhipatyam",R.color.trans));
+        mData.add(new NewsItem("","","\n" + "\n" + "sañjaya uvācha\n" + "evam-uktvā hṛiṣhīkeśhaṁ guḍākeśhaḥ parantapa\n" + "na yotsya iti govindam uktvā tūṣhṇīṁ babhūva ha\n",R.color.trans));
+        mData.add(new NewsItem("","","tam-uvācha hṛiṣhīkeśhaḥ prahasanniva bhārata\n" + "senayorubhayor-madhye viṣhīdantam-idaṁ vachaḥ",R.color.trans));
+        mData.add(new NewsItem("","","śhrī bhagavān uvācha\n" + "aśhochyān-anvaśhochas-tvaṁ prajñā-vādānśh cha bhāṣhase\n" + "gatāsūn-agatāsūnśh-cha nānuśhochanti paṇḍitāḥ",R.color.trans));
+        mData.add(new NewsItem("","","na tvevāhaṁ jātu nāsaṁ na tvaṁ neme janādhipāḥ\n" + "na chaiva na bhaviṣhyāmaḥ sarve vayamataḥ param",R.color.trans));
+        mData.add(new NewsItem("","","dehino ’smin yathā dehe kaumāraṁ yauvanaṁ jarā\n" + "tathā dehāntara-prāptir dhīras tatra na muhyati",R.color.trans));
+        mData.add(new NewsItem("","","mātrā-sparśhās tu kaunteya śhītoṣhṇa-sukha-duḥkha-dāḥ\n" + "āgamāpāyino ’nityās tans-titikṣhasva bhārata",R.color.trans));
+        mData.add(new NewsItem("","","yaṁ hi na vyathayantyete puruṣhaṁ puruṣharṣhabha\n" + "sama-duḥkha-sukhaṁ dhīraṁ so ’mṛitatvāya kalpate",R.color.trans));
+        mData.add(new NewsItem("","","nāsato vidyate bhāvo nābhāvo vidyate sataḥ\n" + "ubhayorapi dṛiṣhṭo ’nta stvanayos tattva-darśhibhiḥ",R.color.trans));
+        mData.add(new NewsItem("","","avināśhi tu tadviddhi yena sarvam idaṁ tatam\n" + "vināśham avyayasyāsya na kaśhchit kartum arhati",R.color.trans));
+        mData.add(new NewsItem("","","antavanta ime dehā nityasyoktāḥ śharīriṇaḥ\n" + "anāśhino ’prameyasya tasmād yudhyasva bhārata",R.color.trans));
+        mData.add(new NewsItem("","","ya enaṁ vetti hantāraṁ yaśh chainaṁ manyate hatam\n" + "ubhau tau na vijānīto nāyaṁ hanti na hanyate",R.color.trans));
+        mData.add(new NewsItem("","","na jāyate mriyate vā kadāchin\n" + "nāyaṁ bhūtvā bhavitā vā na bhūyaḥ\n" + "ajo nityaḥ śhāśhvato ’yaṁ purāṇo\n" + "na hanyate hanyamāne śharīre",R.color.trans));
+        mData.add(new NewsItem("","","vedāvināśhinaṁ nityaṁ ya enam ajam avyayam\n" + "kathaṁ sa puruṣhaḥ pārtha kaṁ ghātayati hanti kam",R.color.trans));
+        mData.add(new NewsItem("","","vāsānsi jīrṇāni yathā vihāya\n" + "navāni gṛihṇāti naro ’parāṇi\n" + "tathā śharīrāṇi vihāya jīrṇānya\n" + "nyāni sanyāti navāni dehī",R.color.trans));
+        mData.add(new NewsItem("","","nainaṁ chhindanti śhastrāṇi nainaṁ dahati pāvakaḥ\n" + "na chainaṁ kledayantyāpo na śhoṣhayati mārutaḥ",R.color.trans));
+        mData.add(new NewsItem("","","achchhedyo ’yam adāhyo ’yam akledyo ’śhoṣhya eva cha\n" + "nityaḥ sarva-gataḥ sthāṇur achalo ’yaṁ sanātanaḥ",R.color.trans));
+        mData.add(new NewsItem("","","avyakto ’yam achintyo ’yam avikāryo ’yam uchyate\n" + "tasmādevaṁ viditvainaṁ nānuśhochitum arhasi",R.color.trans));
+        mData.add(new NewsItem("","","atha chainaṁ nitya-jātaṁ nityaṁ vā manyase mṛitam\n" + "tathāpi tvaṁ mahā-bāho naivaṁ śhochitum arhasi",R.color.trans));
+        mData.add(new NewsItem("","","jātasya hi dhruvo mṛityur dhruvaṁ janma mṛitasya cha\n" + "tasmād aparihārye ’rthe na tvaṁ śhochitum arhasi",R.color.trans));
+        mData.add(new NewsItem("","","avyaktādīni bhūtāni vyakta-madhyāni bhārata\n" + "avyakta-nidhanānyeva tatra kā paridevanā",R.color.trans));
+        mData.add(new NewsItem("","","āśhcharya-vat paśhyati kaśhchid enan\n" + "āśhcharya-vad vadati tathaiva chānyaḥ\n" + "āśhcharya-vach chainam anyaḥ śhṛiṇoti\n" + "śhrutvāpyenaṁ veda na chaiva kaśhchit",R.color.trans));
+        mData.add(new NewsItem("","","dehī nityam avadhyo ’yaṁ dehe sarvasya bhārata\n" + "tasmāt sarvāṇi bhūtāni na tvaṁ śhochitum arhasi",R.color.trans));
+        mData.add(new NewsItem("","","swa-dharmam api chāvekṣhya na vikampitum arhasi\n" + "dharmyāddhi yuddhāch chhreyo ’nyat kṣhatriyasya na vidyate",R.color.trans));
+        mData.add(new NewsItem("","","yadṛichchhayā chopapannaṁ swarga-dvāram apāvṛitam\n" + "sukhinaḥ kṣhatriyāḥ pārtha labhante yuddham īdṛiśham",R.color.trans));
+        mData.add(new NewsItem("","","atha chet tvam imaṁ dharmyaṁ saṅgrāmaṁ na kariṣhyasi\n" + "tataḥ sva-dharmaṁ kīrtiṁ cha hitvā pāpam avāpsyasi",R.color.trans));
+        mData.add(new NewsItem("","","akīrtiṁ chāpi bhūtāni\n" + "kathayiṣhyanti te ’vyayām\n" + "sambhāvitasya chākīrtir\n" + "maraṇād atirichyate",R.color.trans));
+        mData.add(new NewsItem("","","bhayād raṇād uparataṁ mansyante tvāṁ mahā-rathāḥ\n" + "yeṣhāṁ cha tvaṁ bahu-mato bhūtvā yāsyasi lāghavam",R.color.trans));
+        mData.add(new NewsItem("","","avāchya-vādānśh cha bahūn vadiṣhyanti tavāhitāḥ\n" + "nindantastava sāmarthyaṁ tato duḥkhataraṁ nu kim",R.color.trans));
+        mData.add(new NewsItem("","","hato vā prāpsyasi swargaṁ jitvā vā bhokṣhyase mahīm\n" + "tasmād uttiṣhṭha kaunteya yuddhāya kṛita-niśhchayaḥ",R.color.trans));
+        mData.add(new NewsItem("","","sukha-duḥkhe same kṛitvā lābhālābhau jayājayau\n" + "tato yuddhāya yujyasva naivaṁ pāpam avāpsyasi",R.color.trans));
+        mData.add(new NewsItem("","","eṣhā te ’bhihitā sānkhye\n" + "buddhir yoge tvimāṁ śhṛiṇu\n" + "buddhyā yukto yayā pārtha\n" + "karma-bandhaṁ prahāsyasi",R.color.trans));
+        mData.add(new NewsItem("","","nehābhikrama-nāśho ’sti pratyavāyo na vidyate\n" + "svalpam apyasya dharmasya trāyate mahato bhayāt",R.color.trans));
+        mData.add(new NewsItem("","","vyavasāyātmikā buddhir ekeha kuru-nandana\n" + "bahu-śhākhā hyanantāśh cha buddhayo ’vyavasāyinām",R.color.trans));
+        mData.add(new NewsItem("","","yāmimāṁ puṣhpitāṁ vāchaṁ pravadanty-avipaśhchitaḥ\n" + "veda-vāda-ratāḥ pārtha nānyad astīti vādinaḥ\n" + "kāmātmānaḥ swarga-parā janma-karma-phala-pradām\n" + "kriyā-viśheṣha-bahulāṁ bhogaiśhwarya-gatiṁ prati",R.color.trans));
+        mData.add(new NewsItem("","","bhogaiśwvarya-prasaktānāṁ tayāpahṛita-chetasām\n" + "vyavasāyātmikā buddhiḥ samādhau na vidhīyate",R.color.trans));
+        mData.add(new NewsItem("","","trai-guṇya-viṣhayā vedā nistrai-guṇyo bhavārjuna\n" + "nirdvandvo nitya-sattva-stho niryoga-kṣhema ātmavān",R.color.trans));
+        mData.add(new NewsItem("","","yāvān artha udapāne sarvataḥ samplutodake\n" + "tāvānsarveṣhu vedeṣhu brāhmaṇasya vijānataḥ",R.color.trans));
+        mData.add(new NewsItem("","","karmaṇy-evādhikāras te mā phaleṣhu kadāchana\n" + "mā karma-phala-hetur bhūr mā te saṅgo ’stvakarmaṇi",R.color.trans));
+        mData.add(new NewsItem("","","yoga-sthaḥ kuru karmāṇi saṅgaṁ tyaktvā dhanañjaya\n" + "siddhy-asiddhyoḥ samo bhūtvā samatvaṁ yoga uchyate",R.color.trans));
+        mData.add(new NewsItem("","","dūreṇa hy-avaraṁ karma buddhi-yogād dhanañjaya\n" + "buddhau śharaṇam anvichchha kṛipaṇāḥ phala-hetavaḥ",R.color.trans));
+        mData.add(new NewsItem("","","buddhi-yukto jahātīha ubhe sukṛita-duṣhkṛite\n" + "tasmād yogāya yujyasva yogaḥ karmasu kauśhalam",R.color.trans));
+        mData.add(new NewsItem("","","karma-jaṁ buddhi-yuktā hi phalaṁ tyaktvā manīṣhiṇaḥ\n" + "janma-bandha-vinirmuktāḥ padaṁ gachchhanty-anāmayam",R.color.trans));
+        mData.add(new NewsItem("","","yadā te moha-kalilaṁ buddhir vyatitariṣhyati\n" + "tadā gantāsi nirvedaṁ śhrotavyasya śhrutasya cha",R.color.trans));
+        mData.add(new NewsItem("","","śhruti-vipratipannā te yadā sthāsyati niśhchalā\n" + "samādhāv-achalā buddhis tadā yogam avāpsyasi",R.color.trans));
+        mData.add(new NewsItem("","","arjuna uvācha\n" + "sthita-prajñasya kā bhāṣhā samādhi-sthasya keśhava\n" + "sthita-dhīḥ kiṁ prabhāṣheta kim āsīta vrajeta kim",R.color.trans));
+        mData.add(new NewsItem("","","śhrī bhagavān uvācha\n" + "prajahāti yadā kāmān sarvān pārtha mano-gatān\n" + "ātmany-evātmanā tuṣhṭaḥ sthita-prajñas tadochyate",R.color.trans));
+        mData.add(new NewsItem("","","duḥkheṣhv-anudvigna-manāḥ sukheṣhu vigata-spṛihaḥ\n" + "vīta-rāga-bhaya-krodhaḥ sthita-dhīr munir uchyate",R.color.trans));
+        mData.add(new NewsItem("","","yaḥ sarvatrānabhisnehas tat tat prāpya śhubhāśhubham\n" + "nābhinandati na dveṣhṭi tasya prajñā pratiṣhṭhitā",R.color.trans));
+        mData.add(new NewsItem("","","yadā sanharate chāyaṁ kūrmo ’ṅgānīva sarvaśhaḥ\n" + "indriyāṇīndriyārthebhyas tasya prajñā pratiṣhṭhitā",R.color.trans));
+        mData.add(new NewsItem("","","viṣhayā vinivartante nirāhārasya dehinaḥ\n" + "rasa-varjaṁ raso ’pyasya paraṁ dṛiṣhṭvā nivartate",R.color.trans));
+        mData.add(new NewsItem("","","yatato hyapi kaunteya puruṣhasya vipaśhchitaḥ\n" + "indriyāṇi pramāthīni haranti prasabhaṁ manaḥ",R.color.trans));
+        mData.add(new NewsItem("","","tāni sarvāṇi sanyamya yukta āsīta mat-paraḥ\n" + "vaśhe hi yasyendriyāṇi tasya prajñā pratiṣhṭhitā",R.color.trans));
+        mData.add(new NewsItem("","","dhyāyato viṣhayān puṁsaḥ saṅgas teṣhūpajāyate\n" + "saṅgāt sañjāyate kāmaḥ kāmāt krodho ’bhijāyate",R.color.trans));
+        mData.add(new NewsItem("","","krodhād bhavati sammohaḥ sammohāt smṛiti-vibhramaḥ\n" + "smṛiti-bhranśhād buddhi-nāśho buddhi-nāśhāt praṇaśhyati",R.color.trans));
+        mData.add(new NewsItem("","","rāga-dveṣha-viyuktais tu viṣhayān indriyaiśh charan\n" + "ātma-vaśhyair-vidheyātmā prasādam adhigachchhati",R.color.trans));
+        mData.add(new NewsItem("","","prasāde sarva-duḥkhānāṁ hānir asyopajāyate\n" + "prasanna-chetaso hyāśhu buddhiḥ paryavatiṣhṭhate",R.color.trans));
+        mData.add(new NewsItem("","","nāsti buddhir-ayuktasya na chāyuktasya bhāvanā\n" + "na chābhāvayataḥ śhāntir aśhāntasya kutaḥ sukham",R.color.trans));
+        mData.add(new NewsItem("","","indriyāṇāṁ hi charatāṁ yan mano ’nuvidhīyate\n" + "tadasya harati prajñāṁ vāyur nāvam ivāmbhasi",R.color.trans));
+        mData.add(new NewsItem("","","tasmād yasya mahā-bāho nigṛihītāni sarvaśhaḥ\n" + "indriyāṇīndriyārthebhyas tasya prajñā pratiṣhṭhitā",R.color.trans));
+        mData.add(new NewsItem("","","yā niśhā sarva-bhūtānāṁ tasyāṁ jāgarti sanyamī\n" + "yasyāṁ jāgrati bhūtāni sā niśhā paśhyato muneḥ",R.color.trans));
+        mData.add(new NewsItem("","","āpūryamāṇam achala-pratiṣhṭhaṁ\n" + "samudram āpaḥ praviśhanti yadvat\n" + "tadvat kāmā yaṁ praviśhanti sarve\n" + "sa śhāntim āpnoti na kāma-kāmī",R.color.trans));
+        mData.add(new NewsItem("","","vihāya kāmān yaḥ sarvān pumānśh charati niḥspṛihaḥ\n" + "nirmamo nirahankāraḥ sa śhāntim adhigachchhati",R.color.trans));
+        mData.add(new NewsItem("","","eṣhā brāhmī sthitiḥ pārtha naināṁ prāpya vimuhyati\n" + "sthitvāsyām anta-kāle ’pi brahma-nirvāṇam ṛichchhati",R.color.trans));
+
+
+
 
 
         // adapter ini and setup
