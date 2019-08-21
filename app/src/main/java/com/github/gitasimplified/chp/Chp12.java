@@ -127,81 +127,23 @@ public class Chp12 extends AppCompatActivity
         // fill list news with data
         // just for testing purpose i will fill the news list with random data
         // you may get your data from an api / firebase or sqlite database ...
-        mData.add(new NewsItem("Sanjay uvācha :-","Sanjay said: Seeing Arjun overwhelmed with pity, his mind grief-stricken, and his eyes full of tears, Shree Krishna spoke the following words.","||1||",R.drawable.chariot));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","The Supreme Lord said: My dear Arjun, how has this delusion overcome you in this hour of peril? It is not befitting an honorable person. It leads not to the higher abodes, but to disgrace.","||2||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||3||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||4||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||5||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||6||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||7||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||8||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||9||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||10||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||11||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||12||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||13||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||14||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||15||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||16||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||17||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||18||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||19||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||20||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||21||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||22||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||23||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||24||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||25||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||26||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||27||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||28||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||29||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||30||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||31||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||32||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||33||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||34||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||35||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||36||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||37||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||38||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||39||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||40||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||41||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||42||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||43||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||44||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||45||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||46||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||47||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||48||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||49||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||50||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||51||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||52||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||53||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||54||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||55||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||56||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||57||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||58||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||59||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||60||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||61||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||62||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||63||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||64||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||65||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||66||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||67||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||68||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||69||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||70||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||71||",R.drawable.krishna_c));
-        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","","||72||",R.drawable.krishna_c));
-
-
-        // adapter ini and setup
+        mData.add(new NewsItem("Arjuna uvācha :-","Arjun inquired: Between those who are steadfastly devoted to Your personal form and those who worship the formless Brahman, who do You consider to be more perfect in Yog? ","||1||",R.drawable.target));
+        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","The Blessed Lord said: Those who fix their minds on Me and always engage in My devotion with steadfast faith, I consider them to be the best yogis. ","||2||",R.drawable.krishna_c));
+        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","But those who worship the formless aspect of the Absolute Truth—the imperishable, the indefinable, the unmanifest, the all-pervading, the unthinkable, the unchanging, the eternal, and the immoveable—by restraining their senses and being even-minded everywhere, such persons, engaged in the welfare of all beings, also attain Me.\n","||3,4||",R.drawable.krishna_c));
+        mData.add(new NewsItem("Shrī Bhagavān uvācha :-"," For those whose minds are attached to the unmanifest, the path of realization is full of tribulations. Worship of the unmanifest is exceedingly difficult for embodied beings. ","||5||",R.drawable.krishna_c));
+        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","But those who dedicate all their actions to Me, regarding Me as the Supreme goal, worshiping Me and meditating on Me with exclusive devotion, O Parth, I swiftly deliver them from the ocean of birth and death, for their consciousness is united with Me. ","||6,7||",R.drawable.krishna_c));
+        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","Fix your mind on Me alone and surrender your intellect to Me. There upon, you will always live in Me. Of this, there is no doubt. ","||8||",R.drawable.krishna_c));
+        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","If you are unable to fix your mind steadily on Me, O Arjun, then practice remembering Me with devotion while constantly restraining the mind from worldly affairs. ","||9||",R.drawable.krishna_c));
+        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","If you cannot practice remembering Me with devotion, then just try to work for Me. Thus performing devotional service to Me, you shall achieve the stage of perfection. ","||10||",R.drawable.krishna_c));
+        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","If you are unable to even work for Me in devotion, then try to renounce the fruits of your actions and be situated in the self. ","||11||",R.drawable.krishna_c));
+        mData.add(new NewsItem("Shrī Bhagavān uvācha :-"," Better than mechanical practice is knowledge; better than knowledge is meditation. Better than meditation is renunciation of the fruits of actions, for peace immediately follows such renunciation. ","||12||",R.drawable.krishna_c));
+        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","Those devotees are very dear to Me who are free from malice toward all living beings, who are friendly, and compassionate. They are free from attachment to possessions and egotism, equipoised in happiness and distress, and ever-forgiving. They are ever-contented, steadily united with Me in devotion, self-controlled, firm in conviction, and dedicated to Me in mind and intellect. ","||13,14||",R.drawable.krishna_c));
+        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","Those who are not a source of annoyance to anyone and who in turn are not agitated by anyone, who are equal in pleasure and pain, and free from fear and anxiety, such devotees of Mine are very dear to Me. ","||15||",R.drawable.krishna_c));
+        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","Those who are indifferent to worldly gain, externally and internally pure, skillful, without cares, untroubled, and free from selfishness in all undertakings, such devotees of Mine are very dear to Me. ","||16||",R.drawable.krishna_c));
+        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","Those who neither rejoice in mundane pleasures nor despair in worldly sorrows, who neither lament for any loss nor hanker for any gain, who renounce both good and evil deeds, such persons who are full of devotion are very dear to Me. ","||17||",R.drawable.krishna_c));
+        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","Those, who are alike to friend and foe, equipoised in honor and dishonor, cold and heat, joy and sorrow, and are free from all unfavorable association; those who take praise and reproach alike, who are given to silent contemplation, content with what comes their way, without attachment to the place of residence, whose intellect is firmly fixed in Me, and who are full of devotion to Me, such persons are very dear to Me. ","||18,19||",R.drawable.krishna_c));
+        mData.add(new NewsItem("Shrī Bhagavān uvācha :-","Those who honor this nectar of wisdom declared here, have faith in Me, and are devoted and intent on Me as the supreme goal, they are exceedingly dear to Me. ","||20||",R.drawable.krishna_c));
+               // adapter ini and setup
 
         newsAdapter = new NewsAdapter(this,mData,isDark);
         NewsRecyclerview.setAdapter(newsAdapter);
