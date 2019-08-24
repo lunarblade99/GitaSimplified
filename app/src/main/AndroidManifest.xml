@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.github.gitasimplified">
-
+    <uses-permission android:name="android.permission.CALL_PHONE" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,45 +9,113 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Explaination">
-
-        </activity>
+        <activity android:name=".CloseActivity"></activity>
         <activity android:name=".Aboutus" />
-        <activity android:name=".chp.Chp18" android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".chp.Chp17" android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".chp.Chp16" android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".chp.Chp15" android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".chp.Chp14" android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".chp.Chp13" android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".chp.Chp12" android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".chp.Chp11" android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".chp.Chp10" android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".chp.Chp9" android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".chp.Chp8" android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".chp.Chp7" android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".chp.Chp6" android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".chp.Chp5" android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".chp.Chp4" android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".chp.Chp3" android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".chp.Chp2" android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".Main2Activity" android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".vchp.Vchp2" android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".vchp.Vchp3" android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".vchp.Vchp4" android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".vchp.Vchp5" android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".vchp.Vchp6" android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".vchp.Vchp7" android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".vchp.Vchp8" android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".vchp.Vchp9" android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".vchp.Vchp10" android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".vchp.Vchp11" android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".vchp.Vchp12" android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".vchp.Vchp13" android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".vchp.Vchp14" android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".vchp.Vchp15" android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".vchp.Vchp16" android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".vchp.Vchp17" android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".vchp.Vchp18" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".chp.Chp18"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".chp.Chp17"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".chp.Chp16"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".chp.Chp15"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".chp.Chp14"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".chp.Chp13"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".chp.Chp12"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".chp.Chp11"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".chp.Chp10"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".chp.Chp9"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".chp.Chp8"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".chp.Chp7"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".chp.Chp6"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".chp.Chp5"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".chp.Chp4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".chp.Chp3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".chp.Chp2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Main2Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".vchp.Vchp2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".vchp.Vchp3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".vchp.Vchp4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".vchp.Vchp5"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".vchp.Vchp6"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".vchp.Vchp7"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".vchp.Vchp8"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".vchp.Vchp9"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".vchp.Vchp10"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".vchp.Vchp11"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".vchp.Vchp12"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".vchp.Vchp13"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".vchp.Vchp14"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".vchp.Vchp15"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".vchp.Vchp16"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".vchp.Vchp17"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".vchp.Vchp18"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Splash"
             android:label="@string/app_name"

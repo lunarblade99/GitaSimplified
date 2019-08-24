@@ -19,16 +19,16 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.Toast;
 
 import com.github.gitasimplified.Aboutus;
-import com.github.gitasimplified.Explaination;
+import com.github.gitasimplified.CloseActivity;
 import com.github.gitasimplified.Main2Activity;
-import com.github.gitasimplified.MainActivity;
 import com.github.gitasimplified.NewsAdapter2;
 import com.github.gitasimplified.NewsItem;
 import com.github.gitasimplified.R;
 import com.github.gitasimplified.chp.Chp5;
+import com.shashank.sony.fancygifdialoglib.FancyGifDialog;
+import com.shashank.sony.fancygifdialoglib.FancyGifDialogListener;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -238,8 +238,30 @@ public class Vchp5 extends AppCompatActivity
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
-            super.onBackPressed();
-        }
+            // super.onBackPressed();
+
+            new FancyGifDialog.Builder(this)
+                    .setTitle("Are you sure you want to exit?")
+                    .setMessage("Great is the art of beginning, but greater is the art of ending.")
+                    .setNegativeBtnText("No")
+                    .setPositiveBtnBackground("#1ec1f2")
+                    .setPositiveBtnText("Yes")
+                    .setNegativeBtnBackground("#D60621")
+                    .setGifResource(R.drawable.exit_sign_gif)
+                    .isCancellable(true)
+                    .OnPositiveClicked(new FancyGifDialogListener() {
+                        @Override
+                        public void OnClick() {
+                            Intent intent = new Intent(Vchp5.this, CloseActivity.class);
+                            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+                            startActivity(intent);                         }
+                    })
+                    .OnNegativeClicked(new FancyGifDialogListener() {
+                        @Override
+                        public void OnClick() {
+                        }
+                    })
+                    .build(); }
     }
 
     @Override
@@ -273,10 +295,34 @@ public class Vchp5 extends AppCompatActivity
 
         if (id == R.id.explain){
 
-            Intent myIntent = new Intent(this, Explaination.class);
-            this.startActivity(myIntent);
+            //   Intent myIntent = new Intent(this, Explaination.class);
+            //   this.startActivity(myIntent);
+
+            new FancyGifDialog.Builder(Vchp5.this)
+                    .setTitle("REMEMBER THIS ALWAYS!")
+                    .setMessage("\uD83D\uDCA5️ This is just a side note but a very important one:\n\uD83D\uDC49️ This translation of gita by Swami Mukundananda is one of the many translations available on this planet. Everyone interprets gita from there own school of thought and so when one switch from Dwaita to Adwaita school of thought the whole meaning flips upside down.\n\uD83D\uDE4F️ So it's my humble request to read different interpretations for a much clearer view!")
+                    .setNegativeBtnText("Ofcourse!")
+                    //  .setPositiveBtnBackground("#1ec1f2")
+                    //  .setPositiveBtnText("Yes")
+                    .setNegativeBtnBackground("#D60621")
+                    .setGifResource(R.drawable.explain)
+                    .isCancellable(true)
+                    // .OnPositiveClicked(new FancyGifDialogListener() {
+                    //     @Override
+                    //    public void OnClick() {
+                    //        Intent intent = new Intent(Aboutus.this, CloseActivity.class);
+                    //        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+                    //       startActivity(intent);                      }
+                    //  })
+                    .OnNegativeClicked(new FancyGifDialogListener() {
+                        @Override
+                        public void OnClick() {
+                        }
+                    })
+                    .build();
 
         }
+
 
         if (id == R.id.Aboutus){
             {

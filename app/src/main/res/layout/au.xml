@@ -151,6 +151,7 @@
             android:orientation="vertical">
 
             <LinearLayout
+                android:id="@+id/li4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
@@ -163,10 +164,10 @@
 
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
                     android:fontFamily="serif-monospace"
                     android:paddingLeft="20dp"
+                    android:layout_marginTop="10dp"
                     android:text="Sanjeev.jadhav99 @ gmail.com"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -174,6 +175,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/li5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
@@ -198,6 +200,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/li6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
@@ -221,6 +224,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/li7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
