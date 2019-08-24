@@ -28,6 +28,7 @@ import com.github.gitasimplified.MainActivity;
 import com.github.gitasimplified.NewsAdapter;
 import com.github.gitasimplified.NewsItem;
 import com.github.gitasimplified.R;
+import com.github.gitasimplified.vchp.Vchp13;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -57,7 +58,6 @@ public class Chp13 extends AppCompatActivity
             NewsItem thisItem = mData.get(position);
 
             if(position == 0) {
-                Toast.makeText(Chp13.this, "You Clicked: " + thisItem.getTitle(), Toast.LENGTH_SHORT).show();
             }
 
 
@@ -264,14 +264,14 @@ public class Chp13 extends AppCompatActivity
         //noinspection SimplifiableIfStatement
         if (id == R.id.meaning){
 
-            Intent myIntent = new Intent(this, MainActivity.class);
-            this.startActivity(myIntent);
+        //    Intent myIntent = new Intent(this, MainActivity.class);
+         //   this.startActivity(myIntent);
 
         }
 
         if (id == R.id.verses){
 
-            Intent myIntent = new Intent(this, Main2Activity.class);
+            Intent myIntent = new Intent(this, Vchp13.class);
             this.startActivity(myIntent);
 
         }

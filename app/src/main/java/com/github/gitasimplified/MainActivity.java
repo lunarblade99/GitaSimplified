@@ -69,15 +69,7 @@ public class MainActivity extends AppCompatActivity
             // viewHolder.itemView;
             NewsItem thisItem = mData.get(position);
 
-            if(position == 0) {
-                Toast.makeText(MainActivity.this, "You Clicked: " + thisItem.getTitle(), Toast.LENGTH_SHORT).show();
-            }
-            if(position == 1) {
-                Toast.makeText(MainActivity.this, "You Clicked: " + thisItem.getTitle(), Toast.LENGTH_SHORT).show();
-            }
-            if(position == 2) {
-                Toast.makeText(MainActivity.this, "You Clicked: " + thisItem.getTitle(), Toast.LENGTH_SHORT).show();
-            }
+            if(position == 0) {}
 
         }
     };
@@ -176,8 +168,6 @@ public class MainActivity extends AppCompatActivity
         mData.add(new NewsItem("Arjuna uvācha :-","O Janardan (Krishna), I have heard from the learned that those who destroy family traditions dwell in hell for an indefinite period of time. ","|| 44 ||",R.drawable.target));
         mData.add(new NewsItem("Arjuna uvācha :-","Alas! How strange it is that we have set our mind to perform this great sin. Driven by the desire for kingly pleasures, we are intent on killing our own kinsmen. It will be better if, with weapons in hand, the sons of Dhritarashtra kill me unarmed and unresisting on the battlefield. ","|| 45,46 ||",R.drawable.target));
         mData.add(new NewsItem("Sanjay uvācha :-","Sanjay said: Speaking thus, Arjun cast aside his bow and arrows, and sank into the seat of his chariot, his mind in distress and overwhelmed with grief. ","|| 47 ||",R.drawable.chariot));
-
-
 
         // adapter ini and setup
 
@@ -286,8 +276,8 @@ public class MainActivity extends AppCompatActivity
         //noinspection SimplifiableIfStatement
         if (id == R.id.meaning){
 
-            Intent myIntent = new Intent(this, MainActivity.class);
-            this.startActivity(myIntent);
+          //  Intent myIntent = new Intent(this, MainActivity.class);
+          //  this.startActivity(myIntent);
 
         }
 

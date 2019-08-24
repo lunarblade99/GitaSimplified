@@ -30,18 +30,18 @@
             android:paddingTop="20dp"
             android:textColor="@color/title_text_color"
             android:textStyle="bold" />
+
         <TextView
             android:id="@+id/tv_date"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAlignment="center"
-            android:paddingTop="15dp"
             android:layout_below="@id/tv_title"
-            android:text="TextView"
             android:paddingStart="25dp"
+            android:paddingTop="15dp"
             android:paddingEnd="25dp"
-            android:textColor="@color/content_text_color"
-            />
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="#858484" />
         <TextView
             android:id="@+id/tv_description"
             android:paddingTop="15dp"

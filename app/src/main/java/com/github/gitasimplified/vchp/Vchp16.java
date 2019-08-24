@@ -28,6 +28,7 @@ import com.github.gitasimplified.MainActivity;
 import com.github.gitasimplified.NewsAdapter2;
 import com.github.gitasimplified.NewsItem;
 import com.github.gitasimplified.R;
+import com.github.gitasimplified.chp.Chp16;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -56,15 +57,8 @@ public class Vchp16 extends AppCompatActivity
             // viewHolder.itemView;
             NewsItem thisItem = mData.get(position);
 
-            if(position == 0) {
-                Toast.makeText(Vchp16.this, "You Clicked: " + thisItem.getTitle(), Toast.LENGTH_SHORT).show();
-            }
-            if(position == 1) {
-                Toast.makeText(Vchp16.this, "You Clicked: " + thisItem.getTitle(), Toast.LENGTH_SHORT).show();
-            }
-            if(position == 2) {
-                Toast.makeText(Vchp16.this, "You Clicked: " + thisItem.getTitle(), Toast.LENGTH_SHORT).show();
-            }
+            if(position == 0) {}
+
 
         }
     };
@@ -131,25 +125,25 @@ public class Vchp16 extends AppCompatActivity
         // fill list news with data
         // just for testing purpose i will fill the news list with random data
         // you may get your data from an api / firebase or sqlite database ...
-        mData.add(new NewsItem("","","śhrī-bhagavān uvācha\n" + "abhayaṁ sattva-sanśhuddhir jñāna-yoga-vyavasthitiḥ\n" + "dānaṁ damaśh cha yajñaśh cha svādhyāyas tapa ārjavam\n" + "ahinsā satyam akrodhas tyāgaḥ śhāntir apaiśhunam\n" + "dayā bhūteṣhv aloluptvaṁ mārdavaṁ hrīr achāpalam\n" + "tejaḥ kṣhamā dhṛitiḥ śhaucham adroho nāti-mānitā\n" + "bhavanti sampadaṁ daivīm abhijātasya bhārata",R.color.trans));
-        mData.add(new NewsItem("","","dambho darpo ’bhimānaśh cha krodhaḥ pāruṣhyam eva cha\n" + "ajñānaṁ chābhijātasya pārtha sampadam āsurīm",R.color.trans));
-        mData.add(new NewsItem("","","daivī sampad vimokṣhāya nibandhāyāsurī matā\n" + "mā śhuchaḥ sampadaṁ daivīm abhijāto ’si pāṇḍava",R.color.trans));
-        mData.add(new NewsItem("","","dvau bhūta-sargau loke ’smin daiva āsura eva cha\n" + "daivo vistaraśhaḥ prokta āsuraṁ pārtha me śhṛiṇu",R.color.trans));
-        mData.add(new NewsItem("","","pravṛittiṁ cha nivṛittiṁ cha janā na vidur āsurāḥ\n" + "na śhauchaṁ nāpi chāchāro na satyaṁ teṣhu vidyate",R.color.trans));
-        mData.add(new NewsItem("","","asatyam apratiṣhṭhaṁ te jagad āhur anīśhvaram\n" + "aparaspara-sambhūtaṁ kim anyat kāma-haitukam",R.color.trans));
-        mData.add(new NewsItem("","","etāṁ dṛiṣhṭim avaṣhṭabhya naṣhṭātmāno ’lpa-buddhayaḥ\n" + "prabhavanty ugra-karmāṇaḥ kṣhayāya jagato ’hitāḥ",R.color.trans));
-        mData.add(new NewsItem("","","kāmam āśhritya duṣhpūraṁ dambha-māna-madānvitāḥ\n" + "mohād gṛihītvāsad-grāhān pravartante ’śhuchi-vratāḥ",R.color.trans));
-        mData.add(new NewsItem("","","chintām aparimeyāṁ cha pralayāntām upāśhritāḥ\n" + "kāmopabhoga-paramā etāvad iti niśhchitāḥ",R.color.trans));
-        mData.add(new NewsItem("","","āśhā-pāśha-śhatair baddhāḥ kāma-krodha-parāyaṇāḥ\n" + "īhante kāma-bhogārtham anyāyenārtha-sañchayān",R.color.trans));
-        mData.add(new NewsItem("","","idam adya mayā labdham imaṁ prāpsye manoratham\n" + "idam astīdam api me bhaviṣhyati punar dhanam\n" + "asau mayā hataḥ śhatrur haniṣhye chāparān api\n" + "īśhvaro ’ham ahaṁ bhogī siddho ’haṁ balavān sukhī\n" + "āḍhyo ’bhijanavān asmi ko ’nyo ’sti sadṛiśho mayā\n" + "yakṣhye dāsyāmi modiṣhya ity ajñāna-vimohitāḥ",R.color.trans));
-        mData.add(new NewsItem("","","aneka-chitta-vibhrāntā moha-jāla-samāvṛitāḥ\n" + "prasaktāḥ kāma-bhogeṣhu patanti narake ’śhuchau",R.color.trans));
-        mData.add(new NewsItem("","","ātma-sambhāvitāḥ stabdhā dhana-māna-madānvitāḥ\n" + "yajante nāma-yajñais te dambhenāvidhi-pūrvakam",R.color.trans));
-        mData.add(new NewsItem("","","ahankāraṁ balaṁ darpaṁ kāmaṁ krodhaṁ cha sanśhritāḥ\n" + "mām ātma-para-deheṣhu pradviṣhanto ’bhyasūyakāḥ",R.color.trans));
-        mData.add(new NewsItem("","","tān ahaṁ dviṣhataḥ krūrān sansāreṣhu narādhamān\n" + "kṣhipāmy ajasram aśhubhān āsurīṣhv eva yoniṣhu\n" + "āsurīṁ yonim āpannā mūḍhā janmani janmani\n" + "mām aprāpyaiva kaunteya tato yānty adhamāṁ gatim",R.color.trans));
-        mData.add(new NewsItem("","","tri-vidhaṁ narakasyedaṁ dvāraṁ nāśhanam ātmanaḥ\n" + "kāmaḥ krodhas tathā lobhas tasmād etat trayaṁ tyajet",R.color.trans));
-        mData.add(new NewsItem("","","etair vimuktaḥ kaunteya tamo-dvārais tribhir naraḥ\n" + "ācharaty ātmanaḥ śhreyas tato yāti parāṁ gatim",R.color.trans));
-        mData.add(new NewsItem("","","yaḥ śhāstra-vidhim utsṛijya vartate kāma-kārataḥ\n" + "na sa siddhim avāpnoti na sukhaṁ na parāṁ gatim",R.color.trans));
-        mData.add(new NewsItem("","","tasmāch chhāstraṁ pramāṇaṁ te kāryākārya-vyavasthitau\n" + "jñātvā śhāstra-vidhānoktaṁ karma kartum ihārhasi",R.color.trans));
+        mData.add(new NewsItem("श्रीभगवानुवाच |\n" + "अभयं सत्वसंशुद्धिर्ज्ञानयोगव्यवस्थिति: |\n" + "दानं दमश्च यज्ञश्च स्वाध्यायस्तप आर्जवम् || 1||\n" + "अहिंसा सत्यमक्रोधस्त्याग: शान्तिरपैशुनम् |\n" + "दया भूतेष्वलोलुप्त्वं मार्दवं ह्रीरचापलम् || 2||\n" + "तेज: क्षमा धृति: शौचमद्रोहोनातिमानिता |\n" + "भवन्ति सम्पदं दैवीमभिजातस्य भारत || 3||"," śhrī-bhagavān uvācha—the Supreme Divine Personality said; abhayam—fearlessness; sattva-sanśhuddhiḥ—purity of mind; jñāna—knowledge; yoga—spiritual; vyavasthitiḥ—steadfastness; dānam—charity; damaḥ—control of the senses; cha—and; yajñaḥ—performance of sacrifice; cha—and; svādhyāyaḥ—study of sacred books; tapaḥ—austerity; ārjavam—straightforwardness; ahinsā—non-violence; satyam—truthfulness; akrodhaḥ—absence of anger; tyāgaḥ—renunciation; śhāntiḥ—peacefulness; apaiśhunam—restraint from fault-finding; dayā—compassion; bhūteṣhu—toward all living beings; aloluptvam—absence of covetousness; mārdavam—gentleness; hrīḥ—modesty; achāpalam—lack of fickleness; tejaḥ—vigor; kṣhamā—forgiveness; dhṛitiḥ—fortitude; śhaucham—cleanliness; adrohaḥ—bearing enmity toward none; na—not; ati-mānitā—absence of vanity; bhavanti—are; sampadam—qualities; daivīm—godly; abhijātasya—of those endowed with; bhārata—scion of Bharat ","śhrī-bhagavān uvācha\n" + "abhayaṁ sattva-sanśhuddhir jñāna-yoga-vyavasthitiḥ\n" + "dānaṁ damaśh cha yajñaśh cha svādhyāyas tapa ārjavam\n" + "ahinsā satyam akrodhas tyāgaḥ śhāntir apaiśhunam\n" + "dayā bhūteṣhv aloluptvaṁ mārdavaṁ hrīr achāpalam\n" + "tejaḥ kṣhamā dhṛitiḥ śhaucham adroho nāti-mānitā\n" + "bhavanti sampadaṁ daivīm abhijātasya bhārata",R.color.trans));
+        mData.add(new NewsItem("दम्भो दर्पोऽभिमानश्च क्रोध: पारुष्यमेव च |\n" + "अज्ञानं चाभिजातस्य पार्थ सम्पदमासुरीम् || 4||"," dambhaḥ—hypocrisy; darpaḥ—arrogance; abhimānaḥ—conceit; cha—and; krodhaḥ—anger; pāruṣhyam—harshness; eva—certainly; cha—and; ajñānam—ignorance; cha—and; abhijātasya—of those who possess; pārtha—Arjun, the son of Pritha; sampadam—qualities; āsurīm—demoniac ","dambho darpo ’bhimānaśh cha krodhaḥ pāruṣhyam eva cha\n" + "ajñānaṁ chābhijātasya pārtha sampadam āsurīm",R.color.trans));
+        mData.add(new NewsItem("दैवी सम्पद्विमोक्षाय निबन्धायासुरी मता |\n" + "मा शुच: सम्पदं दैवीमभिजातोऽसि पाण्डव || 5||"," daivī—divine; sampat—qualities; vimokṣhāya—toward liberation; nibandhāya—to bondage; āsurī—demoniac qualities; matā—are considered; mā—do not; śhuchaḥ—grieve; sampadam—virtues; daivīm—saintly; abhijātaḥ—born; asi—you are; pāṇḍava—Arjun, the son of Pandu ","daivī sampad vimokṣhāya nibandhāyāsurī matā\n" + "mā śhuchaḥ sampadaṁ daivīm abhijāto ’si pāṇḍava",R.color.trans));
+        mData.add(new NewsItem("द्वौ भूतसर्गौ लोकेऽस्मिन्दैव आसुर एव च |\n" + "दैवो विस्तरश: प्रोक्त आसुरं पार्थ मे शृणु || 6||"," dvau—two; bhūta-sargau—of created living beings; loke—in the world; asmin—this; daivaḥ—divine; āsuraḥ—demoniac; eva—certainly; cha—and; daivaḥ—the divine; vistaraśhaḥ—at great length; proktaḥ—said; āsuram—the demoniac; pārtha—Arjun, the son of Pritha; me—from me; śhṛiṇu—hear ","dvau bhūta-sargau loke ’smin daiva āsura eva cha\n" + "daivo vistaraśhaḥ prokta āsuraṁ pārtha me śhṛiṇu",R.color.trans));
+        mData.add(new NewsItem("प्रवृत्तिं च निवृत्तिं च जना न विदुरासुरा: |\n" + "न शौचं नापि चाचारो न सत्यं तेषु विद्यते || 7||"," pravṛittim—proper actions; cha—and; nivṛittim—improper actions; cha—and; janāḥ—persons; na—not; viduḥ—comprehend; āsurāḥ—those possessing demoniac nature; na—neither; śhaucham—purity; na—nor; api—even; cha—and; āchāraḥ—conduct; na—nor; satyam—truthfulness; teṣhu—in them; vidyate—exist ","pravṛittiṁ cha nivṛittiṁ cha janā na vidur āsurāḥ\n" + "na śhauchaṁ nāpi chāchāro na satyaṁ teṣhu vidyate",R.color.trans));
+        mData.add(new NewsItem("असत्यमप्रतिष्ठं ते जगदाहुरनीश्वरम् |\n" + "अपरस्परसम्भूतं किमन्यत्कामहैतुकम् || 8||"," asatyam—without absolute truth; apratiṣhṭham—without any basis; te—they; jagat—the world; āhuḥ—say; anīśhvaram—without a God; aparaspara—without cause; sambhūtam—created; kim—what; anyat—other; kāma-haitukam—for sexual gratification only ","asatyam apratiṣhṭhaṁ te jagad āhur anīśhvaram\n" + "aparaspara-sambhūtaṁ kim anyat kāma-haitukam",R.color.trans));
+        mData.add(new NewsItem("एतां दृष्टिमवष्टभ्य नष्टात्मानोऽल्पबुद्धय: |\n" + "प्रभवन्त्युग्रकर्माण: क्षयाय जगतोऽहिता: || 9||"," etām—such; dṛiṣhṭim—views; avaṣhṭabhya—holding; naṣhṭa—misdirected; ātmānaḥ—souls; alpa-buddhayaḥ—of small intellect; prabhavanti—arise; ugra—cruel; karmāṇaḥ—actions; kṣhayāya—destruction; jagataḥ—of the world; ahitāḥ—enemies ","etāṁ dṛiṣhṭim avaṣhṭabhya naṣhṭātmāno ’lpa-buddhayaḥ\n" + "prabhavanty ugra-karmāṇaḥ kṣhayāya jagato ’hitāḥ",R.color.trans));
+        mData.add(new NewsItem("काममाश्रित्य दुष्पूरं दम्भमानमदान्विता: |\n" + "मोहाद्गृहीत्वासद्ग्राहान्प्रवर्तन्तेऽशुचिव्रता: || 10||"," kāmam—lust; āśhritya—harboring; duṣhpūram—insatiable; dambha—hypocrisy; māna—arrogance; mada-anvitāḥ—clinging to false tenets; mohāt—the illusioned; gṛihītvā—being attracted to; asat—impermanent; grāhān—things; pravartante—they flourish; aśhuchi-vratāḥ—with impure resolve ","kāmam āśhritya duṣhpūraṁ dambha-māna-madānvitāḥ\n" + "mohād gṛihītvāsad-grāhān pravartante ’śhuchi-vratāḥ",R.color.trans));
+        mData.add(new NewsItem("चिन्तामपरिमेयां च प्रलयान्तामुपाश्रिता: |\n" + "कामोपभोगपरमा एतावदिति निश्चिता: || 11||"," chintām—anxieties; aparimeyām—endless; cha—and; pralaya-antām—until death; upāśhritāḥ—taking refuge; kāma-upabhoga—gratification of desires; paramāḥ—the purpose of life; etāvat—still; iti—thus; niśhchitāḥ—with complete assurance ","chintām aparimeyāṁ cha pralayāntām upāśhritāḥ\n" + "kāmopabhoga-paramā etāvad iti niśhchitāḥ",R.color.trans));
+        mData.add(new NewsItem("आशापाशशतैर्बद्धा: कामक्रोधपरायणा: |\n" + "ईहन्ते कामभोगार्थमन्यायेनार्थसञ्जयान् || 12||"," āśhā-pāśha—bondage of desires; śhataiḥ—by hundreds; baddhāḥ—bound; kāma—lust; krodha—anger; parāyaṇāḥ—dedicated to; īhante—strive; kāma—lust; bhoga—gratification of the senses; artham—for; anyāyena—by unjust means; artha—wealth; sañchayān—to accumulate ","āśhā-pāśha-śhatair baddhāḥ kāma-krodha-parāyaṇāḥ\n" + "īhante kāma-bhogārtham anyāyenārtha-sañchayān",R.color.trans));
+        mData.add(new NewsItem("इदमद्य मया लब्धमिमं प्राप्स्ये मनोरथम् |\n" + "इदमस्तीदमपि मे भविष्यति पुनर्धनम् || 13||\n" + "असौ मया हत: शत्रुर्हनिष्ये चापरानपि |\n" + "ईश्वरोऽहमहं भोगी सिद्धोऽहं बलवान्सुखी || 14||\n" + "आढ्योऽभिजनवानस्मि कोऽन्योऽस्ति सदृशो मया |\n" + "यक्ष्ये दास्यामि मोदिष्य इत्यज्ञानविमोहिता: || 15||"," idam—this; adya—today; mayā—by me; labdham—gained; imam—this; prāpsye—I shall acquire; manaḥ-ratham—desire; idam—this; asti—is; idam—this; api—also; me—mine; bhaviṣhyati—in future; punaḥ—again; dhanam—wealth; asau—that; mayā—by me; hataḥ—has been destroyed; śhatruḥ—enemy; haniṣhye—I shall destroy; cha—and; aparān—others; api—also; īśhvaraḥ—God; aham—I; aham—I; bhogī—the enjoyer; siddhaḥ—powerful; aham—I; bala-vān—powerful; sukhī—happy; āḍhyaḥ—wealthy; abhijana-vān—having highly placed relatives; asmi—me; kaḥ—who; anyaḥ—else; asti—is; sadṛiśhaḥ—like; mayā—to me; yakṣhye—I shall perform sacrifices; dāsyāmi—I shall give alms; modiṣhye—I shall rejoice; iti—thus; ajñāna—ignorance; vimohitāḥ—deluded ","idam adya mayā labdham imaṁ prāpsye manoratham\n" + "idam astīdam api me bhaviṣhyati punar dhanam\n" + "asau mayā hataḥ śhatrur haniṣhye chāparān api\n" + "īśhvaro ’ham ahaṁ bhogī siddho ’haṁ balavān sukhī\n" + "āḍhyo ’bhijanavān asmi ko ’nyo ’sti sadṛiśho mayā\n" + "yakṣhye dāsyāmi modiṣhya ity ajñāna-vimohitāḥ",R.color.trans));
+        mData.add(new NewsItem("अनेकचित्तविभ्रान्ता मोहजालसमावृता: |\n" + "प्रसक्ता: कामभोगेषु पतन्ति नरकेऽशुचौ || 16||"," aneka—many; chitta—imaginings; vibhrāntāḥ—led astray; moha—delusion; jāla—mesh; samāvṛitāḥ—enveloped; prasaktāḥ—addicted; kāma-bhogeṣhu—gratification of sensuous pleasures; patanti—descend; narake—to hell; aśhuchau—murky ","aneka-chitta-vibhrāntā moha-jāla-samāvṛitāḥ\n" + "prasaktāḥ kāma-bhogeṣhu patanti narake ’śhuchau",R.color.trans));
+        mData.add(new NewsItem("आत्मसम्भाविता: स्तब्धा धनमानमदान्विता: |\n" + "यजन्ते नामयज्ञैस्ते दम्भेनाविधिपूर्वकम् || 17||"," ātma-sambhāvitāḥ—self-conceited; stabdhāḥ—stubborn; dhana—wealth; māna—pride; mada—arrogance; anvitāḥ—full of; yajante—perform sacrifice; nāma—in name only; yajñaiḥ—sacrifices; te—they; dambhena—ostentatiously; avidhi-pūrvakam—with no regards to the rules of the scriptures ","ātma-sambhāvitāḥ stabdhā dhana-māna-madānvitāḥ\n" + "yajante nāma-yajñais te dambhenāvidhi-pūrvakam",R.color.trans));
+        mData.add(new NewsItem("अहङ्कारं बलं दर्पं कामं क्रोधं च संश्रिता: |\n" + "मामात्मपरदेहेषु प्रद्विषन्तोऽभ्यसूयका: || 18||"," ahankāram—egotism; balam—strength; darpam—arrogance; kāmam—desire; krodham—anger; cha—and; sanśhritāḥ—covered by; mām—me; ātma-para-deheṣhu—within one’s own and bodies of others; pradviṣhantaḥ—abuse; abhyasūyakāḥ—the demoniac ","ahankāraṁ balaṁ darpaṁ kāmaṁ krodhaṁ cha sanśhritāḥ\n" + "mām ātma-para-deheṣhu pradviṣhanto ’bhyasūyakāḥ",R.color.trans));
+        mData.add(new NewsItem("\n" + "तानहं द्विषत: क्रूरान्संसारेषु नराधमान् |\n" + "क्षिपाम्यजस्रमशुभानासुरीष्वेव योनिषु || 19||\n" + "आसुरीं योनिमापन्ना मूढा जन्मनि जन्मनि |\n" + "मामप्राप्यैव कौन्तेय ततो यान्त्यधमां गतिम् || 20||\n"," tān—these; aham—I; dviṣhataḥ—hateful; krūrān—cruel; sansāreṣhu—in the material world; nara-adhamān—the vile and vicious of humankind; kṣhipāmi—I hurl; ajasram—again and again; aśhubhān—inauspicious; āsurīṣhu—demoniac; eva—indeed; yoniṣhu—in to the wombs; āsurīm—demoniac; yonim—wombs; āpannāḥ—gaining; mūḍhāḥ—the ignorant; janmani janmani—in birth after birth; mām—me; aprāpya—failing to reach; eva—even; kaunteya—Arjun, the son of Kunti; tataḥ—thereafter; yānti—go; adhamām—abominable; gatim—destination ","tān ahaṁ dviṣhataḥ krūrān sansāreṣhu narādhamān\n" + "kṣhipāmy ajasram aśhubhān āsurīṣhv eva yoniṣhu\n" + "āsurīṁ yonim āpannā mūḍhā janmani janmani\n" + "mām aprāpyaiva kaunteya tato yānty adhamāṁ gatim",R.color.trans));
+        mData.add(new NewsItem("त्रिविधं नरकस्येदं द्वारं नाशनमात्मन: |\n" + "काम: क्रोधस्तथा लोभस्तस्मादेतत्त्रयं त्यजेत् || 21||"," tri-vidham—three types of; narakasya—to the hell; idam—this; dvāram—gates; nāśhanam—destruction; ātmanaḥ—self; kāmaḥ—lust; krodhaḥ—anger; tathā—and; lobhaḥ—greed; tasmāt—therefore; etat—these; trayam—three; tyajet—should abandon ","tri-vidhaṁ narakasyedaṁ dvāraṁ nāśhanam ātmanaḥ\n" + "kāmaḥ krodhas tathā lobhas tasmād etat trayaṁ tyajet",R.color.trans));
+        mData.add(new NewsItem("एतैर्विमुक्त: कौन्तेय तमोद्वारैस्त्रिभिर्नर: |\n" + "आचरत्यात्मन: श्रेयस्ततो याति परां गतिम् || 22||"," etaiḥ—from this; vimuktaḥ—freed; kaunteya—Arjun, the son of Kunti; tamaḥ-dvāraiḥ—gates to darkness; tribhiḥ—three; naraḥ—a person; ācharati—endeavor; ātmanaḥ—soul; śhreyaḥ—welfare; tataḥ—thereby; yāti—attain; parām—supreme; gatim—goal ","etair vimuktaḥ kaunteya tamo-dvārais tribhir naraḥ\n" + "ācharaty ātmanaḥ śhreyas tato yāti parāṁ gatim",R.color.trans));
+        mData.add(new NewsItem("य: शास्त्रविधिमुत्सृज्य वर्तते कामकारत: |\n" + "न स सिद्धिमवाप्नोति न सुखं न परां गतिम् || 23||"," yaḥ—who; śhāstra-vidhim—scriptural injunctions; utsṛijya—discarding; vartate—act; kāma-kārataḥ—under the impulse of desire; na—neither; saḥ—they; siddhim—perfection; avāpnoti—attain; na—nor; sukham—happiness; na—nor; parām—the supreme; gatim—goal ","yaḥ śhāstra-vidhim utsṛijya vartate kāma-kārataḥ\n" + "na sa siddhim avāpnoti na sukhaṁ na parāṁ gatim",R.color.trans));
+        mData.add(new NewsItem("तस्माच्छास्त्रं प्रमाणं ते कार्याकार्यव्यवस्थितौ |\n" + "ज्ञात्वा शास्त्रविधानोक्तं कर्म कर्तुमिहार्हसि || 24||"," tasmāt—therefore; śhāstram—scriptures; pramāṇam—authority; te—your; kārya—duty; akārya—forbidden action; vyavasthitau—in determining; jñātvā—having understood; śhāstra—scriptures; vidhāna—injunctions; uktam—as revealed; karma—actions; kartum—perform; iha—in this world; arhasi—you should ","tasmāch chhāstraṁ pramāṇaṁ te kāryākārya-vyavasthitau\n" + "jñātvā śhāstra-vidhānoktaṁ karma kartum ihārhasi",R.color.trans));
 
         // adapter ini and setup
 
@@ -258,15 +252,15 @@ public class Vchp16 extends AppCompatActivity
         //noinspection SimplifiableIfStatement
         if (id == R.id.meaning){
 
-            Intent myIntent = new Intent(this, MainActivity.class);
+            Intent myIntent = new Intent(this, Chp16.class);
             this.startActivity(myIntent);
 
         }
 
         if (id == R.id.verses){
 
-            Intent myIntent = new Intent(this, Main2Activity.class);
-            this.startActivity(myIntent);
+        //    Intent myIntent = new Intent(this, Main2Activity.class);
+         //   this.startActivity(myIntent);
 
         }
 

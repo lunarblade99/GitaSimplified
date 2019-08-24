@@ -20,12 +20,23 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="GITA SIMPLIFIED \nversion 1.0"
         android:layout_centerInParent="true"
+        android:fontFamily="monospace"
         android:gravity="center"
         android:paddingTop="300dp"
-        android:textStyle="bold"
-        android:textColor="@color/white"
-        />
+        android:text="GITA SIMPLIFIED"
+        android:textColor="#363434"
+        android:textSize="19sp"
+        android:textStyle="bold" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:paddingTop="340dp"
+        android:text="VERSION 1.0"
+        android:textColor="#3C3A3A"
+        android:textStyle="bold" />
 </RelativeLayout>

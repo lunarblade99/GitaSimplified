@@ -28,6 +28,7 @@ import com.github.gitasimplified.MainActivity;
 import com.github.gitasimplified.NewsAdapter2;
 import com.github.gitasimplified.NewsItem;
 import com.github.gitasimplified.R;
+import com.github.gitasimplified.chp.Chp12;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -56,15 +57,8 @@ public class Vchp12 extends AppCompatActivity
             // viewHolder.itemView;
             NewsItem thisItem = mData.get(position);
 
-            if(position == 0) {
-                Toast.makeText(Vchp12.this, "You Clicked: " + thisItem.getTitle(), Toast.LENGTH_SHORT).show();
-            }
-            if(position == 1) {
-                Toast.makeText(Vchp12.this, "You Clicked: " + thisItem.getTitle(), Toast.LENGTH_SHORT).show();
-            }
-            if(position == 2) {
-                Toast.makeText(Vchp12.this, "You Clicked: " + thisItem.getTitle(), Toast.LENGTH_SHORT).show();
-            }
+            if(position == 0) {}
+
 
         }
     };
@@ -131,22 +125,22 @@ public class Vchp12 extends AppCompatActivity
         // fill list news with data
         // just for testing purpose i will fill the news list with random data
         // you may get your data from an api / firebase or sqlite database ...
-        mData.add(new NewsItem("","","arjuna uvācha\n" + "evaṁ satata-yuktā ye bhaktās tvāṁ paryupāsate\n" + "ye chāpy akṣharam avyaktaṁ teṣhāṁ ke yoga-vittamāḥ",R.color.trans));
-        mData.add(new NewsItem("","","śhrī-bhagavān uvācha\n" + "mayy āveśhya mano ye māṁ nitya-yuktā upāsate\n" + "śhraddhayā parayopetās te me yuktatamā matāḥ",R.color.trans));
-        mData.add(new NewsItem("","","ye tv akṣharam anirdeśhyam avyaktaṁ paryupāsate\n" + "sarvatra-gam achintyañcha kūṭa-stham achalandhruvam\n" + "sanniyamyendriya-grāmaṁ sarvatra sama-buddhayaḥ\n" + "te prāpnuvanti mām eva sarva-bhūta-hite ratāḥ",R.color.trans));
-        mData.add(new NewsItem("","","kleśho ’dhikataras teṣhām avyaktāsakta-chetasām\n" + "avyaktā hi gatir duḥkhaṁ dehavadbhir avāpyate",R.color.trans));
-        mData.add(new NewsItem("","","ye tu sarvāṇi karmāṇi mayi sannyasya mat-paraḥ\n" + "ananyenaiva yogena māṁ dhyāyanta upāsate\n" + "teṣhām ahaṁ samuddhartā mṛityu-saṁsāra-sāgarāt\n" + "bhavāmi na chirāt pārtha mayy āveśhita-chetasām",R.color.trans));
-        mData.add(new NewsItem("","","mayy eva mana ādhatsva mayi buddhiṁ niveśhaya\n" + "nivasiṣhyasi mayy eva ata ūrdhvaṁ na sanśhayaḥ",R.color.trans));
-        mData.add(new NewsItem("","","atha chittaṁ samādhātuṁ na śhaknoṣhi mayi sthiram\n" + "abhyāsa-yogena tato mām ichchhāptuṁ dhanañjaya",R.color.trans));
-        mData.add(new NewsItem("","","abhyāse ’py asamartho ’si mat-karma-paramo bhava\n" + "mad-artham api karmāṇi kurvan siddhim avāpsyasi",R.color.trans));
-        mData.add(new NewsItem("","","athaitad apy aśhakto ’si kartuṁ mad-yogam āśhritaḥ\n" + "sarva-karma-phala-tyāgaṁ tataḥ kuru yatātmavān",R.color.trans));
-        mData.add(new NewsItem("","","śhreyo hi jñānam abhyāsāj jñānād dhyānaṁ viśhiṣhyate\n" + "dhyānāt karma-phala-tyāgas tyāgāch chhāntir anantaram",R.color.trans));
-        mData.add(new NewsItem("","","\n" + "\n" + "adveṣhṭā sarva-bhūtānāṁ maitraḥ karuṇa eva cha\n" + "nirmamo nirahankāraḥ sama-duḥkha-sukhaḥ kṣhamī\n" + "\n" + "santuṣhṭaḥ satataṁ yogī yatātmā dṛiḍha-niśhchayaḥ\n" + "mayy arpita-mano-buddhir yo mad-bhaktaḥ sa me priyaḥ\n",R.color.trans));
-        mData.add(new NewsItem("","","yasmān nodvijate loko lokān nodvijate cha yaḥ\n" + "harṣhāmarṣha-bhayodvegair mukto yaḥ sa cha me priyaḥ",R.color.trans));
-        mData.add(new NewsItem("","","anapekṣhaḥ śhuchir dakṣha udāsīno gata-vyathaḥ\n" + "sarvārambha-parityāgī yo mad-bhaktaḥ sa me priyaḥ",R.color.trans));
-        mData.add(new NewsItem("","","yo na hṛiṣhyati na dveṣhṭi na śhochati na kāṅkṣhati\n" + "śhubhāśhubha-parityāgī bhaktimān yaḥ sa me priyaḥ",R.color.trans));
-        mData.add(new NewsItem("","","samaḥ śhatrau cha mitre cha tathā mānāpamānayoḥ\n" + "śhītoṣhṇa-sukha-duḥkheṣhu samaḥ saṅga-vivarjitaḥ\n" + "tulya-nindā-stutir maunī santuṣhṭo yena kenachit\n" + "aniketaḥ sthira-matir bhaktimān me priyo naraḥ",R.color.trans));
-        mData.add(new NewsItem("","","\n" + "\n" + "ye tu dharmyāmṛitam idaṁ yathoktaṁ paryupāsate\n" + "śhraddadhānā mat-paramā bhaktās te ’tīva me priyāḥ\n",R.color.trans));
+        mData.add(new NewsItem("अर्जुन उवाच |\n" + "एवं सततयुक्ता ये भक्तास्त्वां पर्युपासते |\n" + "ये चाप्यक्षरमव्यक्तं तेषां के योगवित्तमा: || 1||"," arjunaḥ uvācha—Arjun said; evam—thus; satata—steadfastly; yuktāḥ—devoted; ye—those; bhaktāḥ—devotees; tvām—you; paryupāsate—worship; ye—those; cha—and; api—also; akṣharam—the imperishable; avyaktam—the formless Brahman; teṣhām—of them; ke—who; yoga-vit-tamāḥ—more perfect in Yog ","arjuna uvācha\n" + "evaṁ satata-yuktā ye bhaktās tvāṁ paryupāsate\n" + "ye chāpy akṣharam avyaktaṁ teṣhāṁ ke yoga-vittamāḥ",R.color.trans));
+        mData.add(new NewsItem("श्रीभगवानुवाच |\n" + "मय्यावेश्य मनो ये मां नित्ययुक्ता उपासते |\n" + "श्रद्धया परयोपेतास्ते मे युक्ततमा मता: || 2||"," śhrī-bhagavān uvācha—the Blessed Lord said; mayi—on Me; āveśhya—fix; manaḥ—the mind; ye—those; mām—Me; nitya yuktāḥ—always engaged; upāsate—worship; śhraddhayā—with faith; parayā—best; upetāḥ—endowed; te—they; me—by Me; yukta-tamāḥ—situated highest in Yog; matāḥ—I consider ","śhrī-bhagavān uvācha\n" + "mayy āveśhya mano ye māṁ nitya-yuktā upāsate\n" + "śhraddhayā parayopetās te me yuktatamā matāḥ",R.color.trans));
+        mData.add(new NewsItem("ये त्वक्षरमनिर्देश्यमव्यक्तं पर्युपासते |\n" + "सर्वत्रगमचिन्त्यञ्च कूटस्थमचलन्ध्रुवम् || 3||\n" + "सन्नियम्येन्द्रियग्रामं सर्वत्र समबुद्धय: |\n" + "ते प्राप्नुवन्ति मामेव सर्वभूतहिते रता: || 4||"," ye—who; tu—but; akṣharam—the imperishable; anirdeśhyam—the indefinable; avyaktam—the unmanifest; paryupāsate—worship; sarvatra-gam—the all-pervading; achintyam—the unthinkable; cha—and; kūṭa-stham—the unchanging; achalam—the immovable; dhruvam—the eternal; sanniyamya—restraining; indriya-grāmam—the senses; sarvatra—everywhere; sama-buddhayaḥ—even-minded; te—they; prāpnuvanti—attain; mām—Me; eva—also; sarva-bhūta-hite—in the welfare of all beings; ratāḥ—engaged ","ye tv akṣharam anirdeśhyam avyaktaṁ paryupāsate\n" + "sarvatra-gam achintyañcha kūṭa-stham achalandhruvam\n" + "sanniyamyendriya-grāmaṁ sarvatra sama-buddhayaḥ\n" + "te prāpnuvanti mām eva sarva-bhūta-hite ratāḥ",R.color.trans));
+        mData.add(new NewsItem("क्लेशोऽधिकतरस्तेषामव्यक्तासक्तचेतसाम् ||\n" + "अव्यक्ता हि गतिर्दु:खं देहवद्भिरवाप्यते || 5||"," kleśhaḥ—tribulations; adhika-taraḥ—full of; teṣhām—of those; avyakta—to the unmanifest; āsakta—attached; chetasām—whose minds; avyaktā—the unmanifest; hi—indeed; gatiḥ—path; duḥkham—exceeding difficulty; deha-vadbhiḥ—for the embodied; avāpyate—is reached ","kleśho ’dhikataras teṣhām avyaktāsakta-chetasām\n" + "avyaktā hi gatir duḥkhaṁ dehavadbhir avāpyate",R.color.trans));
+        mData.add(new NewsItem("ये तु सर्वाणि कर्माणि मयि संन्न्यस्य मत्पर: |\n" + "अनन्येनैव योगेन मां ध्यायन्त उपासते || 6||\n" + "तेषामहं समुद्धर्ता मृत्युसंसारसागरात् |\n" + "भवामि नचिरात्पार्थ मय्यावेशितचेतसाम् || 7||"," ye—who; tu—but; sarvāṇi—all; karmāṇi—actions; mayi—to Me; sannyasya—dedicating; mat-paraḥ—regarding Me as the Supreme goal; ananyena—exclusively; eva—certainly; yogena—with devotion; mām—Me; dhyāyantaḥ—meditating; upāsate—worship; teṣhām—of those; aham—I; samuddhartā—the deliverer; mṛityu-saṁsāra-sāgarāt—from the ocean of birth and death; bhavāmi—(I) become; na—not; chirāt—after a long time; pārtha—Arjun, the son of Pritha; mayi—with Me; āveśhita chetasām—of those whose consciousness is united ","ye tu sarvāṇi karmāṇi mayi sannyasya mat-paraḥ\n" + "ananyenaiva yogena māṁ dhyāyanta upāsate\n" + "teṣhām ahaṁ samuddhartā mṛityu-saṁsāra-sāgarāt\n" + "bhavāmi na chirāt pārtha mayy āveśhita-chetasām",R.color.trans));
+        mData.add(new NewsItem("मय्येव मन आधत्स्व मयि बुद्धिं निवेशय |\n" + "निवसिष्यसि मय्येव अत ऊर्ध्वं न संशय: || 8||"," mayi—on Me; eva—alone; manaḥ—mind; ādhatsva—fix; mayi—on Me; buddhim—intellect; niveśhaya—surrender; nivasiṣhyasi—you shall always live; mayi—in Me; eva—alone; ataḥ ūrdhvam—thereafter; na—not; sanśhayaḥ—doubt ","mayy eva mana ādhatsva mayi buddhiṁ niveśhaya\n" + "nivasiṣhyasi mayy eva ata ūrdhvaṁ na sanśhayaḥ",R.color.trans));
+        mData.add(new NewsItem("अथ चित्तं समाधातुं न शक्नोषि मयि स्थिरम् |\n" + "अभ्यासयोगेन ततो मामिच्छाप्तुं धनञ्जय || 9||"," atha—if; chittam—mind; samādhātum—to fix; na śhaknoṣhi—(you) are unable; mayi—on Me; sthiram—steadily; abhyāsa-yogena—by uniting with God through repeated practice; tataḥ—then; mām—me; ichchhā—desire; āptum—to attain; dhanañjaya—Arjun, the conqueror of wealth ","atha chittaṁ samādhātuṁ na śhaknoṣhi mayi sthiram\n" + "abhyāsa-yogena tato mām ichchhāptuṁ dhanañjaya",R.color.trans));
+        mData.add(new NewsItem("अभ्यासेऽप्यसमर्थोऽसि मत्कर्मपरमो भव |\n" + "मदर्थमपि कर्माणि कुर्वन्सिद्धिमवाप्स्यसि || 10||"," abhyāse—in practice; api—if; asamarthaḥ—unable; asi—you; mat-karma paramaḥ—devotedly work for Me; bhava—be; mat-artham—for My sake; api—also; karmāṇi—work; kurvan—performing; siddhim—perfection; avāpsyasi—you shall achieve ","abhyāse ’py asamartho ’si mat-karma-paramo bhava\n" + "mad-artham api karmāṇi kurvan siddhim avāpsyasi",R.color.trans));
+        mData.add(new NewsItem("अथैतदप्यशक्तोऽसि कर्तुं मद्योगमाश्रित: |\n" + "सर्वकर्मफलत्यागं तत: कुरु यतात्मवान् || 11||"," atha—if; etat—this; api—even; aśhaktaḥ—unable; asi—you are; kartum—to work; mad-yogam—with devotion to Me; āśhritaḥ—taking refuge; sarva-karma—of all actions; phala-tyāgam—to renounce the fruits; tataḥ—then; kuru—do; yata-ātma-vān—be situated in the self ","athaitad apy aśhakto ’si kartuṁ mad-yogam āśhritaḥ\n" + "sarva-karma-phala-tyāgaṁ tataḥ kuru yatātmavān",R.color.trans));
+        mData.add(new NewsItem("श्रेयो हि ज्ञानमभ्यासाज्ज्ञानाद्ध्यानं विशिष्यते |"," śhreyaḥ—better; hi—for; jñānam—knowledge; abhyāsāt—than (mechanical) practice; jñānāt—than knowledge; dhyānam—meditation; viśhiṣhyate—better; dhyānāt—than meditation; karma-phala-tyāgaḥ—renunciation of the fruits of actions; tyāgāt—renunciation; śhāntiḥ—peace; anantaram—immediately ","śhreyo hi jñānam abhyāsāj jñānād dhyānaṁ viśhiṣhyate\n" + "dhyānāt karma-phala-tyāgas tyāgāch chhāntir anantaram",R.color.trans));
+        mData.add(new NewsItem("अद्वेष्टा सर्वभूतानां मैत्र: करुण एव च |\n" + "निर्ममो निरहङ्कार: समदु:खसुख: क्षमी || 13||\n" + "सन्तुष्ट: सततं योगी यतात्मा दृढनिश्चय: |\n" + "मय्यर्पितमनोबुद्धिर्यो मद्भक्त: स मे प्रिय: || 14||"," adveṣhṭā—free from malice; sarva-bhūtānām—toward all living beings; maitraḥ—friendly; karuṇaḥ—compassionate; eva—indeed; cha—and; nirmamaḥ—free from attachment to possession; nirahankāraḥ—free from egoism; sama—equipoised; duḥkha—distress; sukhaḥ—happiness; kṣhamī—forgiving; santuṣhṭaḥ—contented; satatam—steadily; yogī—united in devotion; yata-ātmā—self-controlled; dṛiḍha-niśhchayaḥ—firm in conviction; mayi—to me; arpita—dedicated; manaḥ—mind; buddhiḥ—intellect; yaḥ—who; mat-bhaktaḥ—My devotees; saḥ—they; me—to Me; priyaḥ—very dear ","\n" + "\n" + "adveṣhṭā sarva-bhūtānāṁ maitraḥ karuṇa eva cha\n" + "nirmamo nirahankāraḥ sama-duḥkha-sukhaḥ kṣhamī\n" + "\n" + "santuṣhṭaḥ satataṁ yogī yatātmā dṛiḍha-niśhchayaḥ\n" + "mayy arpita-mano-buddhir yo mad-bhaktaḥ sa me priyaḥ\n",R.color.trans));
+        mData.add(new NewsItem("यस्मान्नोद्विजते लोको लोकान्नोद्विजते च य: |\n" + "हर्षामर्षभयोद्वेगैर्मुक्तो य: स च मे प्रिय: || 15||"," yasmāt—by whom; na—not; udvijate—are agitated; lokaḥ—people; lokāt—from people; na—not; udvijate—are disturbed; cha—and; yaḥ—who; harṣha—pleasure; amarṣha—pain; bhaya—fear; udvegaiḥ—anxiety; muktaḥ—freed; yaḥ—who; saḥ—they; cha—and; me—to Me; priyaḥ—very dear ","yasmān nodvijate loko lokān nodvijate cha yaḥ\n" + "harṣhāmarṣha-bhayodvegair mukto yaḥ sa cha me priyaḥ",R.color.trans));
+        mData.add(new NewsItem("अनपेक्ष: शुचिर्दक्ष उदासीनो गतव्यथ: |\n" + "सर्वारम्भपरित्यागी यो मद्भक्त: स मे प्रिय: || 16||"," anapekṣhaḥ—indifferent to worldly gain; śhuchiḥ—pure; dakṣhaḥ—skillful; udāsīnaḥ—without cares; gata-vyathaḥ—untroubled; sarva-ārambha—of all undertakings; parityāgī—renouncer; saḥ—who; mat-bhaktaḥ—My devotee; saḥ—he; me—to Me; priyaḥ—very dear ","anapekṣhaḥ śhuchir dakṣha udāsīno gata-vyathaḥ\n" + "sarvārambha-parityāgī yo mad-bhaktaḥ sa me priyaḥ",R.color.trans));
+        mData.add(new NewsItem("यो न हृष्यति न द्वेष्टि न शोचति न काङ् क्षति |\n" + "शुभाशुभपरित्यागी भक्तिमान्य: स मे प्रिय: || 17||"," yaḥ—who; na—neither; hṛiṣhyati—rejoice; na—nor; dveṣhṭi—despair; na—neither; śhochati—lament; na—nor; kāṅkṣhati—hanker for gain; śhubha-aśhubha-parityāgī—who renounce both good and evil deeds; bhakti-mān—full of devotion; yaḥ—who; saḥ—that person; me—to Me; priyaḥ—very dear ","yo na hṛiṣhyati na dveṣhṭi na śhochati na kāṅkṣhati\n" + "śhubhāśhubha-parityāgī bhaktimān yaḥ sa me priyaḥ",R.color.trans));
+        mData.add(new NewsItem("सम: शत्रौ च मित्रे च तथा मानापमानयो: |\n" + "शीतोष्णसुखदु:खेषु सम: सङ्गविवर्जित: || 18||\n" + "तुल्यनिन्दास्तुतिर्मौनी सन्तुष्टो येन केनचित् |\n" + "अनिकेत: स्थिरमतिर्भक्तिमान्मे प्रियो नर: || 19||"," samaḥ—alike; śhatrau—to a foe; cha—and; mitre—to a friend; cha tathā—as well as; māna-apamānayoḥ—in honor and dishonor; śhīta-uṣhṇa—in cold and heat; sukha-duḥkheṣhu—in joy and sorrow; samaḥ—equipoised; saṅga-vivarjitaḥ—free from all unfavorable association; tulya—alike; nindā-stutiḥ—reproach and praise; maunī—silent contemplation; santuṣhṭaḥ—contented; yena kenachit—with anything; aniketaḥ—without attachment to the place of residence; sthira—firmly fixed; matiḥ—intellect; bhakti-mān—full of devotion; me—to Me; priyaḥ—very dear; naraḥ—a person ","samaḥ śhatrau cha mitre cha tathā mānāpamānayoḥ\n" + "śhītoṣhṇa-sukha-duḥkheṣhu samaḥ saṅga-vivarjitaḥ\n" + "tulya-nindā-stutir maunī santuṣhṭo yena kenachit\n" + "aniketaḥ sthira-matir bhaktimān me priyo naraḥ",R.color.trans));
+        mData.add(new NewsItem("ये तु धर्म्यामृतमिदं यथोक्तं पर्युपासते |\n" + "श्रद्दधाना मत्परमा भक्तास्तेऽतीव मे प्रिया: || 20||"," ye—who; tu—indeed; dharma—of wisdom; amṛitam—nectar; idam—this; yathā—as; uktam—declared; paryupāsate—exclusive devotion; śhraddadhānāḥ—with faith; mat-paramāḥ—intent on Me as the supreme goal; bhaktāḥ—devotees; te—they; atīva—exceedingly; me—to Me; priyāḥ—dear ","\n" + "\n" + "ye tu dharmyāmṛitam idaṁ yathoktaṁ paryupāsate\n" + "śhraddadhānā mat-paramā bhaktās te ’tīva me priyāḥ\n",R.color.trans));
 
         // adapter ini and setup
 
@@ -255,15 +249,15 @@ public class Vchp12 extends AppCompatActivity
         //noinspection SimplifiableIfStatement
         if (id == R.id.meaning){
 
-            Intent myIntent = new Intent(this, MainActivity.class);
+            Intent myIntent = new Intent(this, Chp12.class);
             this.startActivity(myIntent);
 
         }
 
         if (id == R.id.verses){
 
-            Intent myIntent = new Intent(this, Main2Activity.class);
-            this.startActivity(myIntent);
+         //   Intent myIntent = new Intent(this, Main2Activity.class);
+         //   this.startActivity(myIntent);
 
         }
 
