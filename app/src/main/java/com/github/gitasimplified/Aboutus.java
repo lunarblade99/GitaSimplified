@@ -2,13 +2,12 @@ package com.github.gitasimplified;
 
 import android.content.Intent;
 import android.net.Uri;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 
-import com.github.gitasimplified.vchp.Vchp18;
 import com.shashank.sony.fancygifdialoglib.FancyGifDialog;
 import com.shashank.sony.fancygifdialoglib.FancyGifDialogListener;
 
@@ -144,7 +143,7 @@ public class Aboutus extends AppCompatActivity {
             public void onClick(View v) {
                 new FancyGifDialog.Builder(Aboutus.this)
                         .setTitle("Couldn't have done without you guys!")
-                        .setMessage("Very special thanks to my parents,little sister & all my dear friends\n\n\uD83D\uDCA5️ Shashank for FancyGifDialog\n\n\uD83D\uDCA5️ Aws rh (for everything)\n\n\uD83D\uDCA5️ To all of you user's! \uD83D\uDC99️")
+                        .setMessage("Very special thanks to my parents,little sister & all my dear friends\n\uD83D\uDCA5️ Shashank for FancyGifDialog\n\uD83D\uDCA5️ Aws rh (for everything)\n\uD83D\uDCA5️ Flaticon and its developers\n\uD83D\uDCA5️ To all of you user's! \uD83D\uDC99\n If i have missed thing or done something wrong please do guide me by mail️")
                         .setNegativeBtnText("Thanks!")
                        // .setPositiveBtnBackground("#1ec1f2")
                        // .setPositiveBtnText("Yes")

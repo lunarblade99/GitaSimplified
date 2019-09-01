@@ -3,16 +3,16 @@ package com.github.gitasimplified.vchp;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.support.constraint.ConstraintLayout;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.NavigationView;
-import android.support.v4.view.GravityCompat;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarDrawerToggle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.navigation.NavigationView;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.appcompat.widget.Toolbar;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.Menu;
@@ -125,7 +125,7 @@ public class Vchp18 extends AppCompatActivity
         // fill list news with data
         // just for testing purpose i will fill the news list with random data
         // you may get your data from an api / firebase or sqlite database ...
-        mData.add(new NewsItem("अर्जुन उवाच |\n" + "सन्न्यासस्य महाबाहो तत्वमिच्छामि वेदितुम् |"," arjunaḥ uvācha—Arjun said; sanyāsasya—of renunciation of actions; mahā-bāho—mighty-armed one; tattvam—the truth; ichchhāmi—I wish; veditum—to understand; tyāgasya—of renunciation of desires for enjoying the fruits of actions; cha—and; hṛiṣhīkeśha—Krishna, the Lord of the senses; pṛithak—distinctively; keśhī-niṣhūdana—Krishna, the killer of the Keshi demon ","arjuna uvācha\n" + "sannyāsasya mahā-bāho tattvam ichchhāmi veditum\n" + "tyāgasya cha hṛiṣhīkeśha pṛithak keśhi-niṣhūdana",R.color.trans));
+        mData.add(new NewsItem("अर्जुन उवाच |\n" + "सन्न्यासस्य महाबाहो तत्वमिच्छामि वेदितुम् |\n" + "त्यागस्य च हृषीकेश पृथक्केशिनिषूदन || 1||"," arjunaḥ uvācha—Arjun said; sanyāsasya—of renunciation of actions; mahā-bāho—mighty-armed one; tattvam—the truth; ichchhāmi—I wish; veditum—to understand; tyāgasya—of renunciation of desires for enjoying the fruits of actions; cha—and; hṛiṣhīkeśha—Krishna, the Lord of the senses; pṛithak—distinctively; keśhī-niṣhūdana—Krishna, the killer of the Keshi demon ","arjuna uvācha\n" + "sannyāsasya mahā-bāho tattvam ichchhāmi veditum\n" + "tyāgasya cha hṛiṣhīkeśha pṛithak keśhi-niṣhūdana",R.color.trans));
         mData.add(new NewsItem("श्रीभगवानुवाच |\n" + "काम्यानां कर्मणां न्यासं सन्न्यासं कवयो विदु: |\n" + "सर्वकर्मफलत्यागं प्राहुस्त्यागं विचक्षणा: || 2||"," śhrī-bhagavān uvācha—the Supreme Divine Personality said; kāmyānām—desireful; karmaṇām—of actions; nyāsam—giving up; sanyāsam—renunciation of actions; kavayaḥ—the learned; viduḥ—to understand; sarva—all; karma-phala—fruits of actions; tyāgam—renunciation of desires for enjoying the fruits of actions; prāhuḥ—declare; tyāgam—renunciation of desires for enjoying the fruits of actions; vichakṣhaṇāḥ—the wise ","śhrī-bhagavān uvācha\n" + "kāmyānāṁ karmaṇāṁ nyāsaṁ sannyāsaṁ kavayo viduḥ\n" + "sarva-karma-phala-tyāgaṁ prāhus tyāgaṁ vichakṣhaṇāḥ",R.color.trans));
         mData.add(new NewsItem("त्याज्यं दोषवदित्येके कर्म प्राहुर्मनीषिण: |\n" + "यज्ञदानतप:कर्म न त्याज्यमिति चापरे || 3||"," tyājyam—should be given up; doṣha-vat—as evil; iti—thus; eke—some; karma—actions; prāhuḥ—declare; manīṣhiṇaḥ—the learned; yajña—sacrifice; dāna—charity; tapaḥ—penance; karma—acts; na—never; tyājyam—should be abandoned; iti—thus; cha—and; apare—others ","tyājyaṁ doṣha-vad ity eke karma prāhur manīṣhiṇaḥ\n" + "yajña-dāna-tapaḥ-karma na tyājyam iti chāpare",R.color.trans));
         mData.add(new NewsItem("निश्चयं शृणु मे तत्र त्यागे भरतसत्तम |\n" + "त्यागो हि पुरुषव्याघ्र त्रिविध: सम्प्रकीर्तित: || 4||"," niśhchayam—conclusion; śhṛiṇu—hear; me—my; tatra—there; tyāge—about renunciation of desires for enjoying the fruits of actions; bharata-sat-tama—best of the Bharatas; tyāgaḥ—renunciation of desires for enjoying the fruits of actions; hi—indeed; puruṣha-vyāghra—tiger amongst men; tri-vidhaḥ—of three kinds; samprakīrtitaḥ—declared ","niśhchayaṁ śhṛiṇu me tatra tyāge bharata-sattama\n" + "tyāgo hi puruṣha-vyāghra tri-vidhaḥ samprakīrtitaḥ",R.color.trans));
@@ -348,7 +348,7 @@ public class Vchp18 extends AppCompatActivity
 
             new FancyGifDialog.Builder(Vchp18.this)
                     .setTitle("REMEMBER THIS ALWAYS!")
-                    .setMessage("\uD83D\uDCA5️ This is just a side note but a very important one:\n\uD83D\uDC49️ This translation of gita by Swami Mukundananda is one of the many translations available on this planet. Everyone interprets gita from there own school of thought and so when one switch from Dwaita to Adwaita school of thought the whole meaning flips upside down.\n\uD83D\uDE4F️ So it's my humble request to read different interpretations for a much clearer view!")
+                    .setMessage("\uD83D\uDCA5️ This is just a side note but a very important one:\n\uD83D\uDC49️ This translation of gita is by Swami Mukundananda & i choose to use this translation because it's one of the best and easy to understand english translation available.But it is one of the many translations available on this planet. Everyone interprets gita from there own school of thought and so when one switch from Dwaita to Adwaita philosophy the whole meaning flips upside down.\n\uD83D\uDE4F️ So it's my humble request to read different interpretations for a much clearer view!")
                     .setNegativeBtnText("Ofcourse!")
                     //  .setPositiveBtnBackground("#1ec1f2")
                     //  .setPositiveBtnText("Yes")

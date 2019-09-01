@@ -2,44 +2,24 @@ package com.github.gitasimplified;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.support.constraint.ConstraintLayout;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.NavigationView;
-import android.support.v4.view.GravityCompat;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarDrawerToggle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.navigation.NavigationView;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.appcompat.widget.Toolbar;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.EditText;
-import android.widget.Toast;
 
-import com.github.gitasimplified.chp.Chp10;
-import com.github.gitasimplified.chp.Chp11;
-import com.github.gitasimplified.chp.Chp12;
-import com.github.gitasimplified.chp.Chp13;
-import com.github.gitasimplified.chp.Chp14;
-import com.github.gitasimplified.chp.Chp15;
-import com.github.gitasimplified.chp.Chp16;
-import com.github.gitasimplified.chp.Chp17;
-import com.github.gitasimplified.chp.Chp18;
-import com.github.gitasimplified.chp.Chp2;
-import com.github.gitasimplified.chp.Chp3;
-import com.github.gitasimplified.chp.Chp4;
-import com.github.gitasimplified.chp.Chp5;
-import com.github.gitasimplified.chp.Chp6;
-import com.github.gitasimplified.chp.Chp7;
-import com.github.gitasimplified.chp.Chp8;
-import com.github.gitasimplified.chp.Chp9;
 import com.github.gitasimplified.vchp.Vchp10;
 import com.github.gitasimplified.vchp.Vchp11;
 import com.github.gitasimplified.vchp.Vchp12;
@@ -332,7 +312,7 @@ public class Main2Activity extends AppCompatActivity
 
             new FancyGifDialog.Builder(Main2Activity.this)
                     .setTitle("REMEMBER THIS ALWAYS!")
-                    .setMessage("\uD83D\uDCA5️ This is just a side note but a very important one:\n\uD83D\uDC49️ This translation of gita by Swami Mukundananda is one of the many translations available on this planet. Everyone interprets gita from there own school of thought and so when one switch from Dwaita to Adwaita school of thought the whole meaning flips upside down.\n\uD83D\uDE4F️ So it's my humble request to read different interpretations for a much clearer view!")
+                    .setMessage("\uD83D\uDCA5️ This is just a side note but a very important one:\n\uD83D\uDC49️ This translation of gita is by Swami Mukundananda & i choose to use this translation because it's one of the best and easy to understand english translation available.But it is one of the many translations available on this planet. Everyone interprets gita from there own school of thought and so when one switch from Dwaita to Adwaita philosophy the whole meaning flips upside down.\n\uD83D\uDE4F️ So it's my humble request to read different interpretations for a much clearer view!")
                     .setNegativeBtnText("Ofcourse!")
                     //  .setPositiveBtnBackground("#1ec1f2")
                     //  .setPositiveBtnText("Yes")
