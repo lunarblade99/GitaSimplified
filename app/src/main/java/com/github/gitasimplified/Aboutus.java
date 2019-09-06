@@ -143,7 +143,7 @@ public class Aboutus extends AppCompatActivity {
             public void onClick(View v) {
                 new FancyGifDialog.Builder(Aboutus.this)
                         .setTitle("Couldn't have done without you guys!")
-                        .setMessage("Very special thanks to my parents,little sister & all my dear friends\n\uD83D\uDCA5️ Shashank for FancyGifDialog\n\uD83D\uDCA5️ Aws rh (for everything)\n\uD83D\uDCA5️ Flaticon and its developers\n\uD83D\uDCA5️ To all of you user's! \uD83D\uDC99\n If i have missed thing or done something wrong please do guide me by mail️")
+                        .setMessage("Very special thanks to my parents,little sister & all my dear friends\n Omkar for always being there; Shashank (for FancyGifDialog library) and Aws rh (for his amazing tutorials) also️ Flaticon and its developers and finally️ To all of you user's!\nI still have a long way to go so if i have missed thing or done something wrong please do guide me\uD83D\uDE4F️")
                         .setNegativeBtnText("Thanks!")
                        // .setPositiveBtnBackground("#1ec1f2")
                        // .setPositiveBtnText("Yes")

@@ -28,6 +28,7 @@
             android:layout_alignParentTop="true"
             android:text="Simple Title Text "
             android:paddingTop="20dp"
+            android:textIsSelectable="true"
             android:textColor="@color/title_text_color"
             android:textStyle="bold" />
 
@@ -40,6 +41,7 @@
             android:paddingTop="15dp"
             android:paddingEnd="25dp"
             android:text="TextView"
+            android:textIsSelectable="true"
             android:textAlignment="center"
             android:textColor="#858484" />
         <TextView
@@ -54,6 +56,7 @@
             android:textAlignment="center"
             android:layout_alignStart="@+id/tv_title"
             android:layout_alignLeft="@id/tv_title"
+            android:textIsSelectable="true"
             android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
             android:textColor="@color/content_text_color" />
 

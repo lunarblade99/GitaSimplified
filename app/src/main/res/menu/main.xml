@@ -5,7 +5,7 @@
     <group android:checkableBehavior="single">
     <item
         android:id="@+id/meaning"
-        android:title="@string/meaning"
+        android:title="Translation"
         android:checked="true"
         android:checkable="true"
         />

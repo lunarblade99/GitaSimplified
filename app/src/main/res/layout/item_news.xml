@@ -34,6 +34,7 @@
             android:layout_marginTop="20dp"
             android:fontFamily="monospace"
             android:text="Simple Title Text "
+            android:textIsSelectable="true"
             android:textColor="@color/title_text_color"
             android:textStyle="bold" />
 
@@ -46,15 +47,16 @@
             android:layout_alignLeft="@id/tv_title"
             android:layout_marginTop="8dp"
             android:layout_marginRight="16dp"
-            android:fontFamily="sans-serif-black"
+            android:fontFamily="sans-serif-smallcaps"
             android:lineSpacingExtra="8dp"
             android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
-            android:textColor="#797979" />
+            android:textColor="#6F6F6F"
+            android:textIsSelectable="true" />
 
         <TextView
             android:id="@+id/tv_date"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_marginTop="20dp"
@@ -63,7 +65,7 @@
             android:fontFamily="sans-serif-condensed"
             android:text="TextView"
 
-            android:textColor="@color/content_text_color" />
+            android:textColor="#FFFFFF" />
     </RelativeLayout>
 
     <ImageView
